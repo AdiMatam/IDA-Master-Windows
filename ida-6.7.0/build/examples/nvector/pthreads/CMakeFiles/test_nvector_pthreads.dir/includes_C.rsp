@@ -1,0 +1,1 @@
+-I"C:/Dev/Coding/IDA-FullScale/ida-6.7.0/examples/nvector/pthreads/." -I"C:/Dev/Coding/IDA-FullScale/ida-6.7.0/examples/nvector/pthreads/.." -I"C:/Dev/Coding/IDA-FullScale/ida-6.7.0/include" -I"C:/Dev/Coding/IDA-FullScale/ida-6.7.0/build/include" -I"C:/Dev/Coding/IDA-FullScale/ida-6.7.0/src/sundials"

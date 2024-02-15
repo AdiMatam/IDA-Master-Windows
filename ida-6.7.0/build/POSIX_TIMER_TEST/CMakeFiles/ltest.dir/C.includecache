@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Dev/Coding/IDA-FullScale/ida-6.7.0/build/POSIX_TIMER_TEST/ltest.c
+time.h
+-
+unistd.h
+-
+

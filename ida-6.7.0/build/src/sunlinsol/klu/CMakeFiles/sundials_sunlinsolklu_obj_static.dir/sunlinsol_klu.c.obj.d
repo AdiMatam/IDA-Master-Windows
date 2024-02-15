@@ -1,0 +1,55 @@
+src/sunlinsol/klu/CMakeFiles/sundials_sunlinsolklu_obj_static.dir/sunlinsol_klu.c.obj: \
+ C:\Dev\Coding\IDA-FullScale\ida-6.7.0\src\sunlinsol\klu\sunlinsol_klu.c \
+ C:/msys64/mingw64/include/stdio.h \
+ C:/msys64/mingw64/include/corecrt_stdio_config.h \
+ C:/msys64/mingw64/include/corecrt.h C:/msys64/mingw64/include/_mingw.h \
+ C:/msys64/mingw64/include/_mingw_mac.h \
+ C:/msys64/mingw64/include/_mingw_secapi.h \
+ C:/msys64/mingw64/include/vadefs.h \
+ C:/msys64/mingw64/include/sdks/_mingw_ddk.h \
+ C:/msys64/mingw64/include/_mingw_off_t.h \
+ C:/msys64/mingw64/include/swprintf.inl \
+ C:/msys64/mingw64/include/sec_api/stdio_s.h \
+ C:/msys64/mingw64/include/stdlib.h \
+ C:/msys64/mingw64/include/corecrt_wstdlib.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h \
+ C:/msys64/mingw64/include/limits.h C:/msys64/mingw64/include/crtdefs.h \
+ C:/msys64/mingw64/include/sec_api/stdlib_s.h \
+ C:/msys64/mingw64/include/malloc.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
+ C:/msys64/mingw64/include/errno.h \
+ C:/Dev/Coding/IDA-FullScale/ida-6.7.0/include/sunlinsol/sunlinsol_klu.h \
+ C:/Dev/Coding/IDA-FullScale/ida-6.7.0/include/sundials/sundials_linearsolver.h \
+ C:/Dev/Coding/IDA-FullScale/ida-6.7.0/include/sundials/sundials_iterative.h \
+ C:/Dev/Coding/IDA-FullScale/ida-6.7.0/include/sundials/sundials_nvector.h \
+ C:/Dev/Coding/IDA-FullScale/ida-6.7.0/include/sundials/sundials_context.h \
+ C:/Dev/Coding/IDA-FullScale/ida-6.7.0/include/sundials/sundials_logger.h \
+ C:/Dev/Coding/IDA-FullScale/ida-6.7.0/build/include/sundials/sundials_config.h \
+ C:/Dev/Coding/IDA-FullScale/ida-6.7.0/build/include/sundials/sundials_export.h \
+ C:/Dev/Coding/IDA-FullScale/ida-6.7.0/include/sundials/sundials_types.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/float.h \
+ C:/msys64/mingw64/include/float.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
+ C:/msys64/mingw64/include/stddef.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
+ C:/msys64/mingw64/include/stdint.h \
+ C:/Dev/Coding/IDA-FullScale/ida-6.7.0/include/sundials/sundials_profiler.h \
+ C:/Dev/Coding/IDA-FullScale/ida-6.7.0/include/sundials/sundials_matrix.h \
+ C:/Dev/Coding/IDA-FullScale/ida-6.7.0/include/sunmatrix/sunmatrix_sparse.h \
+ C:/Dev/Coding/IDA-FullScale/ida-6.7.0/include/sunmatrix/sunmatrix_dense.h \
+ C:/Dev/Coding/IDA-FullScale/ida-6.7.0/include/sunmatrix/sunmatrix_band.h \
+ C:/Dev/Coding/IDA-FullScale/suitesparse/include/suitesparse/klu.h \
+ C:/Dev/Coding/IDA-FullScale/suitesparse/include/suitesparse/amd.h \
+ C:/Dev/Coding/IDA-FullScale/suitesparse/include/suitesparse/SuiteSparse_config.h \
+ C:/msys64/mingw64/include/string.h \
+ C:/msys64/mingw64/include/sec_api/string_s.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
+ C:/msys64/mingw64/include/inttypes.h C:/msys64/mingw64/include/math.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
+ C:/msys64/mingw64/include/stdarg.h \
+ C:/msys64/mingw64/include/_mingw_stdarg.h \
+ C:/msys64/mingw64/include/ctype.h \
+ C:/Dev/Coding/IDA-FullScale/suitesparse/include/suitesparse/colamd.h \
+ C:/Dev/Coding/IDA-FullScale/suitesparse/include/suitesparse/btf.h \
+ C:/Dev/Coding/IDA-FullScale/ida-6.7.0/include/sundials/sundials_math.h

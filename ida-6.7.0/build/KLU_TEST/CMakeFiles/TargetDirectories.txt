@@ -1,0 +1,3 @@
+C:/Dev/Coding/IDA-FullScale/ida-6.7.0/build/KLU_TEST/CMakeFiles/ltest.dir
+C:/Dev/Coding/IDA-FullScale/ida-6.7.0/build/KLU_TEST/CMakeFiles/edit_cache.dir
+C:/Dev/Coding/IDA-FullScale/ida-6.7.0/build/KLU_TEST/CMakeFiles/rebuild_cache.dir

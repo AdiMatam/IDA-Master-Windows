@@ -17,6 +17,7 @@ at the top-level directory.
  */
 
 #include "slu_mt_ddefs.h"
+#include "stdio.h"
 
 /* colamd related */
 #include "colamd.h"
@@ -40,6 +41,8 @@ get_colamd(
     double knobs[COLAMD_KNOBS];
     int_t stats[COLAMD_STATS];
 
+	printf("M: %d, N: %d, nnz: %d\n", m, n, nnz);
+
     /*    if ( !(knobs = (double *) SUPERLU_MALLOC(COLAMD_KNOBS * sizeof(double))) )
 	  SUPERLU_ABORT("Malloc fails for knobs");*/
 
@@ -54,6 +57,9 @@ get_colamd(
     for (i = 0; i < nnz; ++i) A[i] = rowind[i];
 
     info = COLAMD_MAIN(m, n, Alen, A, p, knobs, stats);
+	for (int i = 0; i < 6;i++)
+		printf("%d\n",stats[i]);
+	// colamd_report(stats);
 
     if ( info == FALSE ) SUPERLU_ABORT("COLAMD failed");
 

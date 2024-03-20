@@ -116,7 +116,7 @@ main(int argc, char *argv[])
        permc_spec = 2: minimum degree ordering on structure of A'+A
        permc_spec = 3: approximate minimum degree for unsymmetric matrices
        ------------------------------------------------------------*/ 	
-    permc_spec = 1;
+    permc_spec = 3;
     get_perm_c(permc_spec, &A, perm_c);
 
     /* ------------------------------------------------------------
@@ -194,6 +194,7 @@ main(int argc, char *argv[])
     printf("No of nonzeros in factor L = " IFMT "\n", Lstore->nnz);
     printf("No of nonzeros in factor U = " IFMT "\n", Ustore->nnz);
     printf("No of nonzeros in L+U = " IFMT "\n", Lstore->nnz + Ustore->nnz - n);
+    printf("SUCCESSFUL RUN\n");
     fflush(stdout);
 
     SUPERLU_FREE (rhsb);

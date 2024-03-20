@@ -1,1 +1,0 @@
--I"C:/Dev/Coding/IDA-FullScale/ida-6.7.0/examples/sunlinsol/klu/." -I"C:/Dev/Coding/IDA-FullScale/ida-6.7.0/examples/sunlinsol/klu/.." -I"C:/Dev/Coding/IDA-FullScale/ida-6.7.0/include" -I"C:/Dev/Coding/IDA-FullScale/ida-6.7.0/build/include" -I"C:/Dev/Coding/IDA-FullScale/ida-6.7.0/src/sundials" -isystem "C:/Dev/Coding/IDA-FullScale/suitesparse/include/suitesparse"

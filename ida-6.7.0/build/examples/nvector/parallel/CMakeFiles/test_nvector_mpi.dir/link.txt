@@ -1,3 +1,0 @@
-C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\test_nvector_mpi.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\test_nvector_mpi.dir/objects.a @CMakeFiles\test_nvector_mpi.dir\objects1.rsp
-C:\msys64\mingw64\bin\mpicc.exe -Wl,--whole-archive CMakeFiles\test_nvector_mpi.dir/objects.a -Wl,--no-whole-archive -o ..\..\..\bin\test_nvector_mpi.exe -Wl,--out-implib,..\..\..\bin\libtest_nvector_mpi.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\test_nvector_mpi.dir\linkLibs.rsp

@@ -1,3 +1,0 @@
-C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\test_sunnonlinsol_fixedpoint.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\test_sunnonlinsol_fixedpoint.dir/objects.a @CMakeFiles\test_sunnonlinsol_fixedpoint.dir\objects1.rsp
-C:\msys64\mingw64\bin\cc.exe -Wl,--whole-archive CMakeFiles\test_sunnonlinsol_fixedpoint.dir/objects.a -Wl,--no-whole-archive -o ..\..\..\bin\test_sunnonlinsol_fixedpoint.exe -Wl,--out-implib,..\..\..\bin\libtest_sunnonlinsol_fixedpoint.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\test_sunnonlinsol_fixedpoint.dir\linkLibs.rsp

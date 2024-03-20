@@ -1,3 +1,0 @@
-C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\idaKrylovDemo_ls.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\idaKrylovDemo_ls.dir/objects.a @CMakeFiles\idaKrylovDemo_ls.dir\objects1.rsp
-C:\msys64\mingw64\bin\cc.exe -Wl,--whole-archive CMakeFiles\idaKrylovDemo_ls.dir/objects.a -Wl,--no-whole-archive -o ..\..\..\bin\idaKrylovDemo_ls.exe -Wl,--out-implib,..\..\..\bin\libidaKrylovDemo_ls.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\idaKrylovDemo_ls.dir\linkLibs.rsp

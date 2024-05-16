@@ -1,0 +1,3472 @@
+
+sreadhb.o:
+                 U __isoc99_fscanf
+                 U __stack_chk_fail
+                 U atof
+                 U atoi
+                 U fclose
+                 U fgetc
+                 U fgets
+                 U printf
+                 U puts
+                 U sallocateA
+0000000000000000 T sDumpLine
+00000000000000bb T sParseFloatFormat
+0000000000000032 T sParseIntFormat
+00000000000004aa T sreadhb
+000000000000031b T sReadValues
+00000000000001cf T sReadVector
+                 U stdin
+
+sreadrb.o:
+                 U __isoc99_fscanf
+                 U __stack_chk_fail
+                 U atof
+                 U atoi
+                 U fclose
+                 U fgetc
+                 U fgets
+                 U fputs
+                 U puts
+00000000000001cf t ReadVector
+                 U sallocateA
+0000000000000000 t sDumpLine
+00000000000000bb t sParseFloatFormat
+0000000000000032 t sParseIntFormat
+00000000000004aa T sreadrb
+000000000000031b t sReadValues
+                 U stdin
+                 U stdout
+
+smatgen.o:
+                 U __stack_chk_fail
+00000000000004f8 T dlaran_
+                 U printf
+                 U sallocateA
+0000000000000000 T sband
+000000000000026e T sblockdiag
+
+psgssv.o:
+                 U __stack_chk_fail
+                 U Destroy_SuperMatrix_Store
+                 U PrintStat
+0000000000000000 T psgssv
+                 U psgstrf
+                 U psgstrf_init
+                 U pxgstrf_finalize
+                 U sCreate_CompCol_Matrix
+                 U sgstrs
+                 U sp_ienv
+                 U StatAlloc
+                 U StatFree
+                 U StatInit
+                 U superlu_free
+                 U superlu_malloc
+                 U SuperLU_timer_
+                 U xerbla_
+
+psgssvx.o:
+                 U __stack_chk_fail
+                 U Destroy_CompCol_Permuted
+                 U Destroy_SuperMatrix_Store
+                 U PrintStat
+0000000000000000 T psgssvx
+                 U psgstrf
+                 U sCreate_CompCol_Matrix
+                 U sgscon
+                 U sgsequ
+                 U sgsrfs
+                 U sgstrs
+                 U slamch_
+                 U slangs
+                 U slaqgs
+                 U sp_colorder
+                 U sPivotGrowth
+                 U StatAlloc
+                 U StatFree
+                 U StatInit
+                 U superlu_free
+                 U superlu_malloc
+                 U superlu_sQuerySpace
+                 U SuperLU_timer_
+                 U xerbla_
+
+sgstrs.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __imp___acrt_iob_func
+                 U __mingw_vfprintf
+                 U __mingw_vsprintf
+                 U floatCalloc
+                 U floatMalloc
+0000000000000000 t printf
+                 U sgemm_
+0000000000000097 T sgstrs
+                 U sp_strsv
+00000000000011ab T sprint_soln
+0000000000000054 t sprintf
+                 U strsm_
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U xerbla_
+
+sgsrfs.o:
+                 U __stack_chk_fail
+                 U floatMalloc
+                 U intMalloc
+                 U saxpy_
+                 U scopy_
+0000000000000000 T sgsrfs
+                 U sgstrs
+                 U slacon_
+                 U slamch_
+                 U sp_sgemv
+                 U sprintf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U superlu_malloc
+                 U xerbla_
+
+sgscon.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __mingw_vsprintf
+                 U floatCalloc
+                 U intMalloc
+                 U lsame_
+0000000000000043 T sgscon
+                 U slacon_
+                 U sp_strsv
+0000000000000000 t sprintf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U xerbla_
+
+slacon.o:
+                 U __stack_chk_fail
+0000000000000030 b altsgn.0
+0000000000000020 b estold.2
+                 U floor
+0000000000000000 b i.6
+                 U isamax_
+0000000000000018 b iter.3
+0000000000000010 b j.4
+0000000000000028 b jlast.1
+0000000000000008 b jump.5
+                 U sasum_
+                 U scopy_
+0000000000000000 T slacon_
+
+slangs.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __mingw_vsprintf
+                 U lsame_
+0000000000000043 T slangs
+0000000000000000 t sprintf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U superlu_malloc
+
+sgsequ.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+0000000000000000 T sgsequ
+                 U slamch_
+                 U xerbla_
+
+slaqgs.o:
+                 U slamch_
+0000000000000000 T slaqgs
+
+spivotgrowth.o:
+                 U intMalloc
+                 U slamch_
+0000000000000000 T sPivotGrowth
+                 U superlu_free
+
+psmemory.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __imp___acrt_iob_func
+                 U __mingw_vfprintf
+00000000000014fc T copy_mem_float
+                 U copy_mem_int
+                 U exit
+                 U fflush
+0000000000001e31 T floatCalloc
+0000000000001dd6 T floatMalloc
+0000000000000000 t fprintf
+                 U free
+                 U getenv
+                 U ifill
+                 U intCalloc
+                 U intMalloc
+0000000000000058 b ndim
+0000000000000050 b no_expand
+0000000000000043 t printf
+0000000000001569 T psgstrf_expand
+00000000000005ca T psgstrf_MemInit
+0000000000000513 T psgstrf_memory_use
+000000000000133a T psgstrf_MemXpand
+00000000000011e2 T psgstrf_SetRWork
+0000000000000097 T psgstrf_SetupSpace
+0000000000001b33 T psgstrf_StackCompress
+000000000000011d T psgstrf_StackFree
+00000000000012aa T psgstrf_WorkFree
+0000000000000fcf T psgstrf_WorkInit
+                 U pthread_mutex_destroy
+                 U pthread_mutex_init
+                 U pthread_mutex_lock
+                 U pthread_mutex_unlock
+0000000000001d7a T sallocateA
+0000000000000000 B sexpanders
+                 U sfill
+                 U sp_ienv
+0000000000001ec5 T sPresetMap
+0000000000000020 b stack
+                 U superlu_free
+                 U superlu_malloc
+0000000000000374 T superlu_sQuerySpace
+0000000000000288 T superlu_sTempSpace
+0000000000000211 T suser_free
+0000000000000146 T suser_malloc
+                 U user_bcopy
+0000000000000060 b whichspace
+
+psutil.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __imp___acrt_iob_func
+                 U __mingw_vfprintf
+                 U __mingw_vsprintf
+                 U fflush
+                 U floatMalloc
+                 U intCalloc
+                 U intMalloc
+00000000000019d2 T print_float_vec
+0000000000000000 t printf
+0000000000001092 T scheck_zero_vec
+0000000000000286 T sCompRow_to_CompCol
+00000000000004eb T sCopy_CompCol_Matrix
+0000000000000aa9 T sCopy_Dense_Matrix
+0000000000000097 T sCreate_CompCol_Matrix
+00000000000001d9 T sCreate_CompCol_Permuted
+0000000000000138 T sCreate_CompRow_Matrix
+0000000000000a20 T sCreate_Dense_Matrix
+0000000000000b47 T sCreate_SuperNode_Matrix
+0000000000000c2a T sCreate_SuperNode_Permuted
+0000000000001345 T sfill
+000000000000125d T sFillRHS
+00000000000011dd T sGenXtrue
+0000000000001389 T sinf_norm_error
+                 U sp_sgemm
+00000000000007fd T sPrint_CCS_to_triplets
+0000000000000654 T sPrint_CompCol_Matrix
+0000000000000911 T sPrint_Dense_Matrix
+0000000000000d37 T sprint_lu_col
+0000000000000054 t sprintf
+0000000000001558 T sPrintPerf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U superlu_malloc
+
+smyblas2.o:
+0000000000000000 T slsolve
+0000000000000a4d T smatvec
+0000000000000f25 T smatvec2
+0000000000000928 T susolve
+
+psgstrf.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$.refptr.psgstrf_thread
+0000000000000000 r .rdata$zzz
+0000000000000000 R .refptr.psgstrf_thread
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __imp___acrt_iob_func
+                 U __mingw_vfprintf
+                 U __mingw_vsprintf
+0000000000000000 t fprintf
+0000000000000086 T psgstrf
+                 U psgstrf_thread
+                 U psgstrf_thread_finalize
+                 U psgstrf_thread_init
+                 U pthread_create
+                 U pthread_join
+0000000000000043 t sprintf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U superlu_malloc
+                 U SuperLU_timer_
+                 U usertimer_
+
+psgstrf_init.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __mingw_vsprintf
+                 U intMalloc
+0000000000000043 T psgstrf_init
+                 U sp_colorder
+0000000000000000 t sprintf
+                 U superlu_abort_and_exit
+                 U SuperLU_timer_
+
+psgstrf_thread.o:
+                 U __stack_chk_fail
+                 U ifill
+                 U intMalloc
+                 U psgstrf_column_bmod
+                 U psgstrf_column_dfs
+                 U psgstrf_copy_to_ucol
+                 U psgstrf_factor_snode
+                 U psgstrf_memory_use
+                 U psgstrf_panel_bmod
+                 U psgstrf_panel_dfs
+                 U psgstrf_pivotL
+                 U psgstrf_SetRWork
+0000000000000000 T psgstrf_thread
+                 U psgstrf_WorkFree
+                 U psgstrf_WorkInit
+                 U pxgstrf_mark_busy_descends
+                 U pxgstrf_pruneL
+                 U pxgstrf_resetrep_col
+                 U pxgstrf_scheduler
+                 U pxgstrf_SetIWork
+                 U pxgstrf_super_bnd_dfs
+                 U superlu_free
+
+psgstrf_thread_init.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+0000000000000000 b Glu.0
+                 U ifill
+                 U intCalloc
+                 U intMalloc
+                 U ParallelInit
+                 U psgstrf_MemInit
+0000000000000000 T psgstrf_thread_init
+                 U pxgstrf_relax_snode
+                 U sPresetMap
+                 U superlu_free
+                 U superlu_malloc
+
+psgstrf_thread_finalize.o:
+                 U __stack_chk_fail
+                 U countnz
+                 U fixupL
+                 U ParallelFinalize
+0000000000000000 T psgstrf_thread_finalize
+                 U sCreate_CompCol_Permuted
+                 U sCreate_SuperNode_Permuted
+                 U sexpanders
+                 U superlu_free
+
+psgstrf_factor_snode.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U Glu_alloc
+0000000000000000 T psgstrf_factor_snode
+                 U psgstrf_pivotL
+                 U psgstrf_snode_bmod
+                 U psgstrf_snode_dfs
+
+psgstrf_snode_dfs.o:
+                 U __stack_chk_fail
+                 U Glu_alloc
+                 U NewNsuper
+0000000000000000 T psgstrf_snode_dfs
+
+psgstrf_snode_bmod.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+0000000000000000 T psgstrf_snode_bmod
+                 U sgemv_
+                 U strsv_
+
+psgstrf_panel_dfs.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+0000000000000000 T psgstrf_panel_dfs
+
+psgstrf_panel_bmod.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __imp___acrt_iob_func
+                 U __mingw_vfprintf
+                 U await
+0000000000000054 t check_panel_dfs_list
+                 U fflush
+0000000000000000 t printf
+                 U psgstrf_bmod1D
+                 U psgstrf_bmod2D
+000000000000010e T psgstrf_panel_bmod
+                 U sp_ienv
+
+psgstrf_copy_to_ucol.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U Glu_alloc
+0000000000000000 T psgstrf_copy_to_ucol
+
+psgstrf_pivotL.o:
+0000000000000000 T psgstrf_pivotL
+
+psgstrf_column_dfs.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U Glu_alloc
+                 U NewNsuper
+0000000000000000 T psgstrf_column_dfs
+                 U sp_ienv
+
+psgstrf_column_bmod.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U Glu_alloc
+0000000000000000 T psgstrf_column_bmod
+                 U sgemv_
+                 U strsv_
+
+psgstrf_bmod1D.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+0000000000000000 T psgstrf_bmod1D
+                 U sgemv_
+                 U strsv_
+
+psgstrf_bmod2D.o:
+                 U __stack_chk_fail
+0000000000000000 d first.2
+0000000000000000 b maxsuper.1
+0000000000000000 T psgstrf_bmod2D
+0000000000000008 b rowblk.0
+                 U sgemv_
+                 U sp_ienv
+                 U strsv_
+
+psgstrf_bmod1D_mv2.o:
+                 U __stack_chk_fail
+0000000000000000 T psgstrf_bmod1D_mv2
+                 U sgemv_
+                 U smatvec2
+                 U strsv_
+
+psgstrf_bmod2D_mv2.o:
+                 U __stack_chk_fail
+0000000000000000 d first.2
+0000000000000000 b maxsuper.1
+0000000000000000 T psgstrf_bmod2D_mv2
+0000000000000008 b rowblk.0
+                 U sgemv_
+                 U smatvec2
+                 U sp_ienv
+                 U strsv_
+
+ssp_blas2.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __mingw_vsprintf
+                 U floatCalloc
+                 U lsame_
+                 U sgemv_
+0000000000001185 T sp_sgemv
+0000000000000043 T sp_strsv
+0000000000000000 t sprintf
+                 U strsv_
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U xerbla_
+
+ssp_blas3.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+0000000000000000 T sp_sgemm
+                 U sp_sgemv
+
+superlu_timer.o:
+                 U dclock
+0000000000000000 T SuperLU_timer_
+
+dclock.o:
+                 U __stack_chk_fail
+00000000000000f0 T dclock
+0000000000000093 T extract
+                 U gettimeofday
+                 U sysconf
+                 U times
+0000000000000000 T usertimer_
+
+sp_ienv.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+0000000000000000 T sp_ienv
+                 U xerbla_
+
+lsame.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+0000000000000000 T lsame_
+
+xerbla.o:
+                 U printf
+0000000000000000 T xerbla_
+
+util.o:
+                 U __stack_chk_fail
+0000000000000783 T check_mem_leak
+000000000000132e T check_repfnz
+0000000000000653 T compressSUP
+0000000000000390 T countnz
+0000000000000626 T cpp_defs
+0000000000002515 T CPprofile
+00000000000012e9 T DenseSize
+00000000000000a4 T Destroy_CompCol_Matrix
+000000000000014e T Destroy_CompCol_NCP
+0000000000000103 T Destroy_CompCol_Permuted
+0000000000000081 T Destroy_SuperMatrix_Store
+00000000000001c1 T Destroy_SuperNode_Matrix
+000000000000025c T Destroy_SuperNode_SCP
+                 U exit
+                 U fflush
+0000000000000505 T fixupL
+                 U fprintf
+                 U free
+0000000000000d81 T ifill
+                 U intCalloc
+0000000000000d4b T LUFactFlops
+0000000000000d66 T LUSolveFlops
+                 U malloc
+0000000000000000 b max_sup_size
+000000000000106c T panel_stats
+0000000000001835 T ParallelProfile
+0000000000002808 T Print_CompCol_NC
+000000000000294c T Print_CompCol_NCP
+0000000000002a93 T Print_Dense
+00000000000023ab T print_flops_by_height
+00000000000017c0 T print_int_vec
+00000000000007c7 T print_panel_seg
+00000000000026b4 T Print_SuperNode_SCP
+                 U printf
+000000000000163e T PrintGLGU
+00000000000014c7 T PrintInt10
+0000000000000b7a T PrintStat
+00000000000015b2 T PrintSumm
+                 U putchar
+                 U puts
+0000000000000333 T pxgstrf_resetrep_col
+                 U sbrk
+000000000000128b T SpaSize
+                 U sprintf
+00000000000008b6 T StatAlloc
+0000000000000cf9 T StatFree
+00000000000009dd T StatInit
+                 U stderr
+                 U stdout
+0000000000000dc8 T super_stats
+0000000000000000 T superlu_abort_and_exit
+0000000000000062 T superlu_free
+000000000000003c T superlu_malloc
+
+pmemory.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __imp___acrt_iob_func
+                 U __mingw_vfprintf
+                 U __mingw_vsprintf
+00000000000001b3 T copy_mem_int
+00000000000006e2 T DynamicSetMap
+                 U exit
+0000000000000000 t fprintf
+0000000000000367 T Glu_alloc
+                 U ifill
+00000000000002de T intCalloc
+0000000000000283 T intMalloc
+                 U pthread_mutex_lock
+                 U pthread_mutex_unlock
+0000000000000086 T pxgstrf_SetIWork
+0000000000000043 t sprintf
+                 U superlu_abort_and_exit
+                 U superlu_malloc
+000000000000021e T user_bcopy
+
+qrnzcnt.o:
+                 U free
+                 U intCalloc
+                 U intMalloc
+0000000000000000 T qrnzcnt
+
+cholnzcnt.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+0000000000000000 T cholnzcnt
+                 U free
+                 U intMalloc
+
+await.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+0000000000000000 T await
+
+get_perm_c.o:
+                 U __stack_chk_fail
+0000000000000b4b T at_plus_a
+                 U colamd_l
+                 U colamd_l_recommended
+                 U colamd_l_set_defaults
+                 U genmmd_
+0000000000000000 T get_colamd
+00000000000013af T get_perm_c
+0000000000000320 T getata
+                 U puts
+                 U sprintf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U superlu_malloc
+                 U SuperLU_timer_
+
+mmd.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+0000000000000148 b deg.12
+0000000000000118 b deg0.18
+0000000000000030 b ehead.47
+00000000000000f0 b elmnt.23
+0000000000000068 b elmnt.40
+0000000000000138 b enode.14
+0000000000000190 b father.3
+0000000000000050 b fnode.43
+0000000000000178 b fnode.6
+0000000000000000 T genmmd_
+0000000000000100 b i.21
+0000000000000080 b i.37
+0000000000000038 b i.46
+0000000000000140 b iq2.13
+0000000000000130 b istop.15
+0000000000000060 b istop.41
+0000000000000128 b istrt.16
+0000000000000058 b istrt.42
+00000000000000a8 b j.32
+0000000000000170 b j.7
+00000000000000a0 b jstop.33
+0000000000000168 b jstop.8
+0000000000000098 b jstrt.34
+0000000000000160 b jstrt.9
+0000000000000120 b link.17
+0000000000000090 b link.35
+0000000000000020 b mdeg.49
+00000000000000e8 b mdeg0.24
+0000000000000028 b mdlmt.48
+0000000000000010 b mdnode.51
+000000000000085c T mmdelm_
+000000000000062e T mmdint_
+0000000000001e05 T mmdnum_
+00000000000011c8 T mmdupd_
+00000000000000f8 b mtag.22
+0000000000000150 b nabor.11
+0000000000000088 b nabor.36
+0000000000000048 b ndeg.44
+00000000000001a8 b nextf.0
+0000000000000008 b nextmd.52
+0000000000000158 b node.10
+00000000000000b0 b node.31
+0000000000000040 b node.45
+0000000000000180 b node.5
+00000000000000d0 b npv.27
+00000000000000e0 b nqnbrs.25
+0000000000000188 b nqsize.4
+00000000000001a0 b num.1
+0000000000000000 b num.53
+00000000000000c8 b nxnode.28
+00000000000000c0 b pvnode.29
+0000000000000108 b q2head.20
+0000000000000110 b qxhead.19
+0000000000000078 b rlmt.38
+0000000000000070 b rloc.39
+00000000000000b8 b rnode.30
+0000000000000198 b root.2
+0000000000000018 b tag.50
+00000000000000d8 b xqnbr.26
+
+colamd.o:
+                 U __stack_chk_fail
+00000000000042dc t clear_mark
+0000000000000f95 T colamd_l
+00000000000000c8 T colamd_l_recommended
+0000000000000273 T colamd_l_set_defaults
+0000000000003aac t detect_super_cols
+0000000000002735 t find_ordering
+0000000000003f10 t garbage_collection
+00000000000015cf t init_rows_cols
+0000000000001eac t init_scoring
+000000000000389e t order_children
+0000000000004361 t print_report
+                 U printf
+                 U putchar
+                 U puts
+                 U sqrt
+00000000000002f4 T symamd_l
+0000000000000000 t t_add
+000000000000006e t t_mult
+
+sp_coletree.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __mingw_vsprintf
+00000000000004f5 t etdfs
+000000000000020b t finalize_disjoint_sets
+000000000000017e t find
+00000000000000f8 t initialize_disjoint_sets
+000000000000014e t make_link
+0000000000000122 t make_set
+0000000000000043 t mxCallocInt
+000000000000059a t nr_etdfs
+000000000000022a T sp_coletree
+0000000000000806 T sp_symetree
+0000000000000000 t sprintf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U superlu_malloc
+00000000000006b6 T TreePostorder
+
+pxgstrf_scheduler.o:
+                 U pthread_mutex_lock
+                 U pthread_mutex_unlock
+0000000000000000 T pxgstrf_scheduler
+
+sp_colorder.o:
+                 U __stack_chk_fail
+                 U at_plus_a
+                 U cholnzcnt
+0000000000000e4e T dcheck_perm
+0000000000000c49 T dCheckZeroDiagonal
+0000000000000d46 T dPrintSuperPart
+                 U fclose
+                 U fopen
+                 U fprintf
+                 U intCalloc
+                 U intMalloc
+                 U malloc
+                 U printf
+                 U qrnzcnt
+                 U sp_coletree
+0000000000000000 T sp_colorder
+                 U sp_symetree
+                 U sprintf
+                 U strcpy
+                 U strlen
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U TreePostorder
+
+pxgstrf_mark_busy_descends.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+0000000000000000 T pxgstrf_mark_busy_descends
+
+pxgstrf_pruneL.o:
+0000000000000000 T pxgstrf_pruneL
+
+pxgstrf_super_bnd_dfs.o:
+                 U DynamicSetMap
+0000000000000000 T pxgstrf_super_bnd_dfs
+
+pxgstrf_relax_snode.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U intCalloc
+0000000000000000 T pxgstrf_relax_snode
+                 U superlu_free
+
+heap_relax_snode.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __mingw_vsprintf
+0000000000000043 T heap_relax_snode
+                 U intCalloc
+                 U intMalloc
+0000000000000000 t sprintf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U TreePostorder
+
+pxgstrf_synch.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __imp___acrt_iob_func
+                 U __mingw_vfprintf
+                 U __mingw_vsprintf
+00000000000008b7 T Dequeue
+0000000000000862 T Enqueue
+0000000000000a35 T EnqueueDomains
+000000000000099b T EnqueueRelaxSnode
+0000000000000000 t fprintf
+                 U intCalloc
+                 U intMalloc
+0000000000000bea T lockoff
+0000000000000bc3 T lockon
+0000000000000b52 T NewNsuper
+0000000000000728 T ParallelFinalize
+00000000000000da T ParallelInit
+0000000000000043 t printf
+                 U pthread_mutex_destroy
+                 U pthread_mutex_init
+                 U pthread_mutex_lock
+                 U pthread_mutex_unlock
+0000000000000922 T QueryQueue
+000000000000083b T queue_destroy
+00000000000007d5 T queue_init
+0000000000000097 t sprintf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U superlu_malloc
+
+pxgstrf_finalize.o:
+                 U Destroy_CompCol_Permuted
+0000000000000000 T pxgstrf_finalize
+                 U superlu_free
+
+slamch.o:
+                 U __stack_chk_fail
+00000000000000e4 b a.22
+0000000000000098 b a.42
+0000000000000048 b a.63
+0000000000000094 b b.43
+0000000000000050 b b.61
+00000000000000f4 b b1.18
+000000000000010c b b2.12
+0000000000000020 b base.74
+0000000000000000 b beta.82
+00000000000000ac b c.37
+000000000000004c b c.62
+000000000000000c d c__1.23
+000000000000013c b c_b5.0
+00000000000000f8 b c1.17
+00000000000000fc b c2.16
+0000000000000100 b d1.15
+0000000000000104 b d2.14
+0000000000000034 b emax.69
+0000000000000030 b emin.70
+000000000000000c b eps.79
+0000000000000114 b exbits.10
+0000000000000120 b expsum.7
+0000000000000060 b f.57
+0000000000000008 d first.51
+0000000000000004 d first.65
+0000000000000000 d first.83
+00000000000000c8 b gnmin.30
+00000000000000c4 b gpmin.31
+00000000000000a0 b half.40
+0000000000000108 b i.13
+0000000000000134 b i.2
+00000000000000b8 b i.34
+00000000000000cc b ieee.29
+0000000000000018 b imax.76
+0000000000000010 b imin.78
+0000000000000004 b it.81
+00000000000000d4 b iwarn.27
+0000000000000084 b lbeta.47
+000000000000005c b lbeta.58
+00000000000000dc b lemax.25
+00000000000000d0 b lemin.28
+000000000000009c b leps.41
+0000000000000110 b lexp.11
+0000000000000090 b lieee1.44
+0000000000000070 b lieee1.53
+00000000000000e0 b lrmax.24
+00000000000000d8 b lrmin.26
+000000000000008c b lrnd.45
+0000000000000064 b lrnd.56
+0000000000000008 b lrnd.80
+                 U lsame_
+0000000000000088 b lt.46
+0000000000000074 b lt.52
+0000000000000124 b nbits.6
+00000000000000c0 b ngnmin.32
+00000000000000bc b ngpmin.33
+0000000000000138 b oldy.1
+00000000000000e8 b one.21
+000000000000007c b one.49
+0000000000000044 b one.64
+0000000000001a53 T pow_ri
+000000000000002c b prec.71
+                 U printf
+                 U puts
+0000000000000054 b qtr.60
+00000000000000ec b rbase.20
+00000000000000b0 b rbase.36
+0000000000000128 b recbas.5
+0000000000000040 b rmach.66
+000000000000001c b rmax.75
+0000000000000014 b rmin.77
+0000000000000028 b rnd.72
+0000000000000058 b savec.59
+0000000000000038 b sfmin.68
+00000000000000a4 b sixth.39
+000000000000040a T slamc1_
+000000000000099e T slamc2_
+000000000000136b T slamc3_
+00000000000013a9 T slamc4_
+0000000000001722 T slamc5_
+0000000000000000 T slamch_
+00000000000000b4 b small.35
+000000000000003c b small.67
+0000000000000024 b t.73
+0000000000000068 b t1.55
+000000000000006c b t2.54
+00000000000000a8 b third.38
+0000000000000118 b try__.9
+0000000000000080 b two.48
+000000000000011c b uexp.8
+0000000000000130 b y.3
+000000000000012c b z.4
+00000000000000f0 b zero.19
+0000000000000078 b zero.50
+
+dreadhb.o:
+                 U __isoc99_fscanf
+                 U __stack_chk_fail
+                 U atof
+                 U atoi
+                 U dallocateA
+0000000000000000 T dDumpLine
+00000000000000bb T dParseFloatFormat
+0000000000000032 T dParseIntFormat
+00000000000004ac T dreadhb
+000000000000031b T dReadValues
+00000000000001cf T dReadVector
+                 U fclose
+                 U fgetc
+                 U fgets
+                 U printf
+                 U puts
+                 U stdin
+
+dreadrb.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __imp___acrt_iob_func
+                 U __mingw_vfprintf
+                 U __mingw_vfscanf
+                 U atof
+                 U atoi
+                 U dallocateA
+0000000000000097 t dDumpLine
+0000000000000151 t dParseFloatFormat
+00000000000000c8 t dParseIntFormat
+0000000000000460 T dreadrb
+0000000000000343 t dReadValues
+                 U fclose
+                 U fgetc
+                 U fgets
+                 U fputs
+0000000000000000 t fscanf
+0000000000000043 t printf
+0000000000000265 t ReadVector
+
+dmatgen.o:
+                 U __stack_chk_fail
+                 U dallocateA
+0000000000000000 T dband
+000000000000027c T dblockdiag
+0000000000000514 T dlaran_
+                 U printf
+
+pdgssv.o:
+                 U __stack_chk_fail
+                 U dCreate_CompCol_Matrix
+                 U Destroy_SuperMatrix_Store
+                 U dgstrs
+0000000000000000 T pdgssv
+                 U pdgstrf
+                 U pdgstrf_init
+                 U PrintStat
+                 U pxgstrf_finalize
+                 U sp_ienv
+                 U StatAlloc
+                 U StatFree
+                 U StatInit
+                 U superlu_free
+                 U superlu_malloc
+                 U SuperLU_timer_
+                 U xerbla_
+
+pdgssvx.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U dCreate_CompCol_Matrix
+                 U Destroy_CompCol_Permuted
+                 U Destroy_SuperMatrix_Store
+                 U dgscon
+                 U dgsequ
+                 U dgsrfs
+                 U dgstrs
+                 U dlamch_
+                 U dlangs
+                 U dlaqgs
+                 U dPivotGrowth
+0000000000000000 T pdgssvx
+                 U pdgstrf
+                 U PrintStat
+                 U sp_colorder
+                 U StatAlloc
+                 U StatFree
+                 U StatInit
+                 U superlu_dQuerySpace
+                 U superlu_free
+                 U superlu_malloc
+                 U SuperLU_timer_
+                 U xerbla_
+
+dgstrs.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __imp___acrt_iob_func
+                 U __mingw_vfprintf
+                 U __mingw_vsprintf
+                 U dgemm_
+0000000000000097 T dgstrs
+                 U doubleCalloc
+                 U doubleMalloc
+00000000000011ab T dprint_soln
+                 U dtrsm_
+0000000000000000 t printf
+                 U sp_dtrsv
+0000000000000054 t sprintf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U xerbla_
+
+dgsrfs.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __mingw_vsprintf
+                 U daxpy_
+                 U dcopy_
+0000000000000043 T dgsrfs
+                 U dgstrs
+                 U dlacon_
+                 U dlamch_
+                 U doubleMalloc
+                 U intMalloc
+                 U sp_dgemv
+0000000000000000 t sprintf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U superlu_malloc
+                 U xerbla_
+
+dgscon.o:
+                 U __stack_chk_fail
+0000000000000000 T dgscon
+                 U dlacon_
+                 U doubleCalloc
+                 U intMalloc
+                 U lsame_
+                 U sp_dtrsv
+                 U sprintf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U xerbla_
+
+dlacon.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+0000000000000030 b altsgn.0
+                 U dasum_
+                 U dcopy_
+0000000000000000 T dlacon_
+0000000000000020 b estold.2
+                 U floor
+0000000000000000 b i.6
+                 U idamax_
+0000000000000018 b iter.3
+0000000000000010 b j.4
+0000000000000028 b jlast.1
+0000000000000008 b jump.5
+
+dlangs.o:
+                 U __stack_chk_fail
+0000000000000000 T dlangs
+                 U lsame_
+                 U sprintf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U superlu_malloc
+
+dgsequ.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+0000000000000000 T dgsequ
+                 U dlamch_
+                 U xerbla_
+
+dlaqgs.o:
+                 U dlamch_
+0000000000000000 T dlaqgs
+
+dpivotgrowth.o:
+                 U dlamch_
+0000000000000000 T dPivotGrowth
+                 U intMalloc
+                 U superlu_free
+
+pdmemory.o:
+                 U __stack_chk_fail
+000000000000156b T copy_mem_double
+                 U copy_mem_int
+0000000000001e0c T dallocateA
+0000000000000000 B dexpanders
+                 U dfill
+0000000000001eca T doubleCalloc
+0000000000001e6c T doubleMalloc
+0000000000001f62 T dPresetMap
+0000000000000176 T duser_free
+00000000000000ab T duser_malloc
+                 U exit
+                 U fflush
+                 U fprintf
+                 U free
+                 U fwrite
+                 U getenv
+                 U ifill
+                 U intCalloc
+                 U intMalloc
+0000000000000078 b ndim
+0000000000000070 b no_expand
+00000000000015d5 T pdgstrf_expand
+0000000000000519 T pdgstrf_MemInit
+0000000000000477 T pdgstrf_memory_use
+00000000000013b7 T pdgstrf_MemXpand
+0000000000001259 T pdgstrf_SetRWork
+0000000000000000 T pdgstrf_SetupSpace
+0000000000001ba8 T pdgstrf_StackCompress
+0000000000000086 T pdgstrf_StackFree
+000000000000132a T pdgstrf_WorkFree
+0000000000001041 T pdgstrf_WorkInit
+                 U printf
+                 U pthread_mutex_destroy
+                 U pthread_mutex_init
+                 U pthread_mutex_lock
+                 U pthread_mutex_unlock
+                 U puts
+                 U sp_ienv
+0000000000000020 b stack
+                 U stderr
+                 U stdout
+00000000000002ce T superlu_dQuerySpace
+00000000000001ed T superlu_dTempSpace
+                 U superlu_free
+                 U superlu_malloc
+                 U user_bcopy
+0000000000000080 b whichspace
+
+pdutil.o:
+                 U __stack_chk_fail
+0000000000000fff T dcheck_zero_vec
+0000000000000207 T dCompRow_to_CompCol
+000000000000047c T dCopy_CompCol_Matrix
+0000000000000a3b T dCopy_Dense_Matrix
+0000000000000000 T dCreate_CompCol_Matrix
+0000000000000152 T dCreate_CompCol_Permuted
+00000000000000a9 T dCreate_CompRow_Matrix
+00000000000009aa T dCreate_Dense_Matrix
+0000000000000add T dCreate_SuperNode_Matrix
+0000000000000bc8 T dCreate_SuperNode_Permuted
+00000000000012d1 T dfill
+00000000000011dc T dFillRHS
+0000000000001160 T dGenXtrue
+000000000000131b T dinf_norm_error
+                 U doubleMalloc
+0000000000000798 T dPrint_CCS_to_triplets
+00000000000005e1 T dPrint_CompCol_Matrix
+00000000000008a1 T dPrint_Dense_Matrix
+0000000000000cd7 T dprint_lu_col
+00000000000014e1 T dPrintPerf
+                 U fflush
+                 U intCalloc
+                 U intMalloc
+000000000000186d T print_double_vec
+                 U printf
+                 U puts
+                 U sp_dgemm
+                 U sprintf
+                 U stdout
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U superlu_malloc
+
+dmyblas2.o:
+0000000000000000 T dlsolve
+0000000000000ac8 T dmatvec
+0000000000000ff3 T dmatvec2
+00000000000009a3 T dusolve
+
+pdgstrf.o:
+                 U __stack_chk_fail
+                 U _GLOBAL_OFFSET_TABLE_
+                 U fprintf
+0000000000000000 T pdgstrf
+                 U pdgstrf_thread
+                 U pdgstrf_thread_finalize
+                 U pdgstrf_thread_init
+                 U pthread_create
+                 U pthread_join
+                 U sprintf
+                 U stderr
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U superlu_malloc
+                 U SuperLU_timer_
+                 U usertimer_
+
+pdgstrf_init.o:
+                 U __stack_chk_fail
+                 U intMalloc
+0000000000000000 T pdgstrf_init
+                 U sp_colorder
+                 U sprintf
+                 U superlu_abort_and_exit
+                 U SuperLU_timer_
+
+pdgstrf_thread.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U ifill
+                 U intMalloc
+                 U pdgstrf_column_bmod
+                 U pdgstrf_column_dfs
+                 U pdgstrf_copy_to_ucol
+                 U pdgstrf_factor_snode
+                 U pdgstrf_memory_use
+                 U pdgstrf_panel_bmod
+                 U pdgstrf_panel_dfs
+                 U pdgstrf_pivotL
+                 U pdgstrf_SetRWork
+0000000000000000 T pdgstrf_thread
+                 U pdgstrf_WorkFree
+                 U pdgstrf_WorkInit
+                 U pxgstrf_mark_busy_descends
+                 U pxgstrf_pruneL
+                 U pxgstrf_resetrep_col
+                 U pxgstrf_scheduler
+                 U pxgstrf_SetIWork
+                 U pxgstrf_super_bnd_dfs
+                 U superlu_free
+
+pdgstrf_thread_init.o:
+                 U dPresetMap
+0000000000000000 b Glu.0
+                 U ifill
+                 U intCalloc
+                 U intMalloc
+                 U ParallelInit
+                 U pdgstrf_MemInit
+0000000000000000 T pdgstrf_thread_init
+                 U pxgstrf_relax_snode
+                 U superlu_free
+                 U superlu_malloc
+
+pdgstrf_thread_finalize.o:
+                 U __stack_chk_fail
+                 U countnz
+                 U dCreate_CompCol_Permuted
+                 U dCreate_SuperNode_Permuted
+                 U dexpanders
+                 U fixupL
+                 U ParallelFinalize
+0000000000000000 T pdgstrf_thread_finalize
+                 U superlu_free
+
+pdgstrf_factor_snode.o:
+                 U __stack_chk_fail
+                 U Glu_alloc
+0000000000000000 T pdgstrf_factor_snode
+                 U pdgstrf_pivotL
+                 U pdgstrf_snode_bmod
+                 U pdgstrf_snode_dfs
+
+pdgstrf_snode_dfs.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U Glu_alloc
+                 U NewNsuper
+0000000000000000 T pdgstrf_snode_dfs
+
+pdgstrf_snode_bmod.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U dgemv_
+                 U dtrsv_
+0000000000000000 T pdgstrf_snode_bmod
+
+pdgstrf_panel_dfs.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+0000000000000000 T pdgstrf_panel_dfs
+
+pdgstrf_panel_bmod.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __imp___acrt_iob_func
+                 U __mingw_vfprintf
+                 U await
+0000000000000054 t check_panel_dfs_list
+                 U fflush
+                 U pdgstrf_bmod1D
+                 U pdgstrf_bmod2D
+000000000000010e T pdgstrf_panel_bmod
+0000000000000000 t printf
+                 U sp_ienv
+
+pdgstrf_copy_to_ucol.o:
+                 U __stack_chk_fail
+                 U Glu_alloc
+0000000000000000 T pdgstrf_copy_to_ucol
+
+pdgstrf_pivotL.o:
+0000000000000000 T pdgstrf_pivotL
+
+pdgstrf_column_dfs.o:
+                 U __stack_chk_fail
+                 U Glu_alloc
+                 U NewNsuper
+0000000000000000 T pdgstrf_column_dfs
+                 U sp_ienv
+
+pdgstrf_column_bmod.o:
+                 U __stack_chk_fail
+                 U dgemv_
+                 U dtrsv_
+                 U Glu_alloc
+0000000000000000 T pdgstrf_column_bmod
+
+pdgstrf_bmod1D.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U dgemv_
+                 U dtrsv_
+0000000000000000 T pdgstrf_bmod1D
+
+pdgstrf_bmod2D.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U dgemv_
+                 U dtrsv_
+0000000000000000 d first.2
+0000000000000000 b maxsuper.1
+0000000000000000 T pdgstrf_bmod2D
+0000000000000008 b rowblk.0
+                 U sp_ienv
+
+pdgstrf_bmod1D_mv2.o:
+                 U __stack_chk_fail
+                 U dgemv_
+                 U dmatvec2
+                 U dtrsv_
+0000000000000000 T pdgstrf_bmod1D_mv2
+
+pdgstrf_bmod2D_mv2.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U dgemv_
+                 U dmatvec2
+                 U dtrsv_
+0000000000000000 d first.2
+0000000000000000 b maxsuper.1
+0000000000000000 T pdgstrf_bmod2D_mv2
+0000000000000008 b rowblk.0
+                 U sp_ienv
+
+dsp_blas2.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __mingw_vsprintf
+                 U dgemv_
+                 U doubleCalloc
+                 U dtrsv_
+                 U lsame_
+0000000000001185 T sp_dgemv
+0000000000000043 T sp_dtrsv
+0000000000000000 t sprintf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U xerbla_
+
+dsp_blas3.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+0000000000000000 T sp_dgemm
+                 U sp_dgemv
+
+dlamch.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __imp___acrt_iob_func
+                 U __mingw_vfprintf
+0000000000000188 b a.22
+0000000000000110 b a.42
+0000000000000088 b a.63
+0000000000000108 b b.43
+0000000000000098 b b.61
+00000000000001a8 b b1.18
+00000000000001d8 b b2.12
+0000000000000038 b base.74
+0000000000000000 b beta.82
+0000000000000138 b c.37
+0000000000000090 b c.62
+000000000000000c d c__1.23
+0000000000000220 b c_b5.0
+00000000000001b0 b c1.17
+00000000000001b8 b c2.16
+00000000000001c0 b d1.15
+00000000000001c8 b d2.14
+0000000000000417 T dlamc1_
+0000000000000964 T dlamc2_
+00000000000012a5 T dlamc3_
+00000000000012e3 T dlamc4_
+0000000000001632 T dlamc5_
+0000000000000054 T dlamch_
+0000000000000060 b emax.69
+0000000000000058 b emin.70
+0000000000000010 b eps.79
+00000000000001e4 b exbits.10
+00000000000001f0 b expsum.7
+00000000000000b8 b f.57
+0000000000000008 d first.51
+0000000000000004 d first.65
+0000000000000000 d first.83
+0000000000000160 b gnmin.30
+000000000000015c b gpmin.31
+0000000000000120 b half.40
+00000000000001d0 b i.13
+0000000000000210 b i.2
+0000000000000150 b i.34
+0000000000000164 b ieee.29
+0000000000000028 b imax.76
+0000000000000018 b imin.78
+0000000000000004 b it.81
+000000000000016c b iwarn.27
+00000000000000f8 b lbeta.47
+00000000000000b0 b lbeta.58
+0000000000000178 b lemax.25
+0000000000000168 b lemin.28
+0000000000000118 b leps.41
+00000000000001e0 b lexp.11
+0000000000000104 b lieee1.44
+00000000000000d8 b lieee1.53
+0000000000000180 b lrmax.24
+0000000000000170 b lrmin.26
+0000000000000100 b lrnd.45
+00000000000000c0 b lrnd.56
+0000000000000008 b lrnd.80
+                 U lsame_
+00000000000000fc b lt.46
+00000000000000dc b lt.52
+00000000000001f4 b nbits.6
+0000000000000158 b ngnmin.32
+0000000000000154 b ngpmin.33
+0000000000000218 b oldy.1
+0000000000000190 b one.21
+00000000000000e8 b one.49
+0000000000000080 b one.64
+000000000000193c T pow_di
+0000000000000050 b prec.71
+0000000000000000 t printf
+00000000000000a0 b qtr.60
+0000000000000198 b rbase.20
+0000000000000140 b rbase.36
+00000000000001f8 b recbas.5
+0000000000000078 b rmach.66
+0000000000000030 b rmax.75
+0000000000000020 b rmin.77
+0000000000000048 b rnd.72
+00000000000000a8 b savec.59
+0000000000000068 b sfmin.68
+0000000000000128 b sixth.39
+0000000000000148 b small.35
+0000000000000070 b small.67
+0000000000000040 b t.73
+00000000000000c8 b t1.55
+00000000000000d0 b t2.54
+0000000000000130 b third.38
+00000000000001e8 b try__.9
+00000000000000f0 b two.48
+00000000000001ec b uexp.8
+0000000000000208 b y.3
+0000000000000200 b z.4
+00000000000001a0 b zero.19
+00000000000000e0 b zero.50
+
+scomplex.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __imp___acrt_iob_func
+                 U __mingw_vfprintf
+000000000000023e T c_abs
+0000000000000361 T c_abs1
+0000000000000043 T c_div
+00000000000003e4 T c_exp
+                 U cos
+                 U exit
+                 U exp
+0000000000000000 t fprintf
+00000000000004a0 T r_cnjg
+00000000000004dc T r_imag
+                 U sin
+                 U sqrt
+
+creadhb.o:
+                 U __isoc99_fscanf
+                 U __stack_chk_fail
+                 U atof
+                 U atoi
+                 U callocateA
+0000000000000000 T cDumpLine
+00000000000000bb T cParseFloatFormat
+0000000000000032 T cParseIntFormat
+0000000000000508 T creadhb
+000000000000031b T cReadValues
+00000000000001cf T cReadVector
+                 U fclose
+                 U fgetc
+                 U fgets
+                 U printf
+                 U puts
+                 U stdin
+
+creadrb.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __imp___acrt_iob_func
+                 U __mingw_vfprintf
+                 U __mingw_vfscanf
+                 U atof
+                 U atoi
+                 U callocateA
+0000000000000097 t cDumpLine
+0000000000000151 t cParseFloatFormat
+00000000000000c8 t cParseIntFormat
+00000000000004af T creadrb
+0000000000000343 t cReadValues
+                 U fclose
+                 U fgetc
+                 U fgets
+                 U fputs
+0000000000000000 t fscanf
+0000000000000043 t printf
+0000000000000265 t ReadVector
+
+cmatgen.o:
+                 U __stack_chk_fail
+                 U callocateA
+0000000000000000 T cband
+000000000000026e T cblockdiag
+00000000000004f8 T dlaran_
+                 U printf
+
+scsum1.o:
+                 U c_abs
+0000000000000008 b i.0
+0000000000000004 b nincx.1
+0000000000000000 T scsum1_
+0000000000000000 b stemp.2
+
+icmax1.o:
+0000000000000008 b i.0
+0000000000000000 T icmax1_
+0000000000000000 b ix.2
+0000000000000004 b smax.1
+
+pcgssv.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U cCreate_CompCol_Matrix
+                 U cgstrs
+                 U Destroy_SuperMatrix_Store
+0000000000000000 T pcgssv
+                 U pcgstrf
+                 U pcgstrf_init
+                 U PrintStat
+                 U pxgstrf_finalize
+                 U sp_ienv
+                 U StatAlloc
+                 U StatFree
+                 U StatInit
+                 U superlu_free
+                 U superlu_malloc
+                 U SuperLU_timer_
+                 U xerbla_
+
+pcgssvx.o:
+                 U __stack_chk_fail
+                 U cCreate_CompCol_Matrix
+                 U cgscon
+                 U cgsequ
+                 U cgsrfs
+                 U cgstrs
+                 U clangs
+                 U claqgs
+                 U cPivotGrowth
+                 U Destroy_CompCol_Permuted
+                 U Destroy_SuperMatrix_Store
+0000000000000000 T pcgssvx
+                 U pcgstrf
+                 U PrintStat
+                 U slamch_
+                 U sp_colorder
+                 U StatAlloc
+                 U StatFree
+                 U StatInit
+                 U superlu_cQuerySpace
+                 U superlu_free
+                 U superlu_malloc
+                 U SuperLU_timer_
+                 U xerbla_
+
+cgstrs.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __imp___acrt_iob_func
+                 U __mingw_vfprintf
+                 U __mingw_vsprintf
+                 U c_div
+                 U cgemm_
+0000000000000097 T cgstrs
+                 U complexCalloc
+                 U complexMalloc
+0000000000001589 T cprint_soln
+                 U ctrsm_
+0000000000000000 t printf
+                 U sp_ctrsv
+0000000000000054 t sprintf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U xerbla_
+
+cgsrfs.o:
+                 U __stack_chk_fail
+                 U c_abs
+                 U c_abs1
+                 U caxpy_
+                 U ccopy_
+0000000000000000 T cgsrfs
+                 U cgstrs
+                 U clacon_
+                 U complexMalloc
+                 U intMalloc
+                 U slamch_
+                 U sp_cgemv
+                 U sprintf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U superlu_malloc
+                 U xerbla_
+
+cgscon.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __mingw_vsprintf
+0000000000000043 T cgscon
+                 U clacon_
+                 U complexCalloc
+                 U lsame_
+                 U sp_ctrsv
+0000000000000000 t sprintf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U xerbla_
+
+clacon.o:
+                 U __stack_chk_fail
+0000000000000030 b altsgn.0
+                 U c_abs
+                 U ccopy_
+0000000000000000 T clacon_
+0000000000000020 b estold.2
+0000000000000000 b i.6
+                 U icmax1_
+0000000000000018 b iter.3
+0000000000000010 b j.4
+0000000000000028 b jlast.1
+0000000000000008 b jump.5
+                 U scsum1_
+                 U slamch_
+
+clangs.o:
+                 U __stack_chk_fail
+                 U c_abs
+0000000000000000 T clangs
+                 U lsame_
+                 U sprintf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U superlu_malloc
+
+cgsequ.o:
+                 U __stack_chk_fail
+                 U c_abs1
+0000000000000000 T cgsequ
+                 U slamch_
+                 U xerbla_
+
+claqgs.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+0000000000000000 T claqgs
+                 U slamch_
+
+cpivotgrowth.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U c_abs1
+0000000000000000 T cPivotGrowth
+                 U intMalloc
+                 U slamch_
+                 U superlu_free
+
+pcmemory.o:
+                 U __stack_chk_fail
+0000000000001e13 T callocateA
+0000000000000000 B cexpanders
+                 U cfill
+0000000000001ed1 T complexCalloc
+0000000000001e73 T complexMalloc
+0000000000001574 T copy_mem_complex
+                 U copy_mem_int
+0000000000001f70 T cPresetMap
+0000000000000176 T cuser_free
+00000000000000ab T cuser_malloc
+                 U exit
+                 U fflush
+                 U fprintf
+                 U free
+                 U fwrite
+                 U getenv
+                 U ifill
+                 U intCalloc
+                 U intMalloc
+0000000000000078 b ndim
+0000000000000070 b no_expand
+00000000000015dc T pcgstrf_expand
+0000000000000519 T pcgstrf_MemInit
+0000000000000477 T pcgstrf_memory_use
+00000000000013c0 T pcgstrf_MemXpand
+0000000000001259 T pcgstrf_SetRWork
+0000000000000000 T pcgstrf_SetupSpace
+0000000000001baf T pcgstrf_StackCompress
+0000000000000086 T pcgstrf_StackFree
+0000000000001333 T pcgstrf_WorkFree
+0000000000001041 T pcgstrf_WorkInit
+                 U printf
+                 U pthread_mutex_destroy
+                 U pthread_mutex_init
+                 U pthread_mutex_lock
+                 U pthread_mutex_unlock
+                 U puts
+                 U sp_ienv
+0000000000000020 b stack
+                 U stderr
+                 U stdout
+00000000000002ce T superlu_cQuerySpace
+00000000000001ed T superlu_cTempSpace
+                 U superlu_free
+                 U superlu_malloc
+                 U user_bcopy
+0000000000000080 b whichspace
+
+pcutil.o:
+                 U __stack_chk_fail
+                 U c_abs
+00000000000010da T ccheck_zero_vec
+0000000000000207 T cCompRow_to_CompCol
+000000000000047b T cCopy_CompCol_Matrix
+0000000000000aa8 T cCopy_Dense_Matrix
+0000000000000000 T cCreate_CompCol_Matrix
+0000000000000152 T cCreate_CompCol_Permuted
+00000000000000a9 T cCreate_CompRow_Matrix
+0000000000000a17 T cCreate_Dense_Matrix
+0000000000000b49 T cCreate_SuperNode_Matrix
+0000000000000c34 T cCreate_SuperNode_Permuted
+0000000000001454 T cfill
+0000000000001347 T cFillRHS
+000000000000129c T cGenXtrue
+000000000000149c T cinf_norm_error
+                 U complexMalloc
+00000000000007c3 T cPrint_CCS_to_triplets
+00000000000005df T cPrint_CompCol_Matrix
+00000000000008fd T cPrint_Dense_Matrix
+0000000000000d43 T cprint_lu_col
+00000000000016ae T cPrintPerf
+                 U fflush
+                 U intCalloc
+                 U intMalloc
+0000000000001a58 T print_complex_vec
+                 U printf
+                 U puts
+                 U sp_cgemm
+                 U sprintf
+                 U stdout
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U superlu_malloc
+
+cmyblas2.o:
+                 U __stack_chk_fail
+                 U c_div
+0000000000000000 T clsolve
+0000000000000f70 T cmatvec
+0000000000001636 T cmatvec2
+0000000000000d2b T cusolve
+
+pcgstrf.o:
+                 U __stack_chk_fail
+                 U _GLOBAL_OFFSET_TABLE_
+                 U fprintf
+0000000000000000 T pcgstrf
+                 U pcgstrf_thread
+                 U pcgstrf_thread_finalize
+                 U pcgstrf_thread_init
+                 U pthread_create
+                 U pthread_join
+                 U sprintf
+                 U stderr
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U superlu_malloc
+                 U SuperLU_timer_
+                 U usertimer_
+
+pcgstrf_init.o:
+                 U __stack_chk_fail
+                 U intMalloc
+0000000000000000 T pcgstrf_init
+                 U sp_colorder
+                 U sprintf
+                 U superlu_abort_and_exit
+                 U SuperLU_timer_
+
+pcgstrf_thread.o:
+                 U __stack_chk_fail
+                 U ifill
+                 U intMalloc
+                 U pcgstrf_column_bmod
+                 U pcgstrf_column_dfs
+                 U pcgstrf_copy_to_ucol
+                 U pcgstrf_factor_snode
+                 U pcgstrf_memory_use
+                 U pcgstrf_panel_bmod
+                 U pcgstrf_panel_dfs
+                 U pcgstrf_pivotL
+                 U pcgstrf_SetRWork
+0000000000000000 T pcgstrf_thread
+                 U pcgstrf_WorkFree
+                 U pcgstrf_WorkInit
+                 U pxgstrf_mark_busy_descends
+                 U pxgstrf_pruneL
+                 U pxgstrf_resetrep_col
+                 U pxgstrf_scheduler
+                 U pxgstrf_SetIWork
+                 U pxgstrf_super_bnd_dfs
+                 U superlu_free
+
+pcgstrf_thread_init.o:
+                 U cPresetMap
+0000000000000000 b Glu.0
+                 U ifill
+                 U intCalloc
+                 U intMalloc
+                 U ParallelInit
+                 U pcgstrf_MemInit
+0000000000000000 T pcgstrf_thread_init
+                 U pxgstrf_relax_snode
+                 U superlu_free
+                 U superlu_malloc
+
+pcgstrf_thread_finalize.o:
+                 U __stack_chk_fail
+                 U cCreate_CompCol_Permuted
+                 U cCreate_SuperNode_Permuted
+                 U cexpanders
+                 U countnz
+                 U fixupL
+                 U ParallelFinalize
+0000000000000000 T pcgstrf_thread_finalize
+                 U superlu_free
+
+pcgstrf_factor_snode.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U Glu_alloc
+0000000000000000 T pcgstrf_factor_snode
+                 U pcgstrf_pivotL
+                 U pcgstrf_snode_bmod
+                 U pcgstrf_snode_dfs
+
+pcgstrf_snode_dfs.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U Glu_alloc
+                 U NewNsuper
+0000000000000000 T pcgstrf_snode_dfs
+
+pcgstrf_snode_bmod.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U cgemv_
+                 U ctrsv_
+0000000000000000 T pcgstrf_snode_bmod
+
+pcgstrf_panel_dfs.o:
+0000000000000000 T pcgstrf_panel_dfs
+
+pcgstrf_panel_bmod.o:
+                 U await
+0000000000000000 t check_panel_dfs_list
+                 U fflush
+                 U pcgstrf_bmod1D
+                 U pcgstrf_bmod2D
+00000000000000b2 T pcgstrf_panel_bmod
+                 U printf
+                 U putchar
+                 U sp_ienv
+                 U stdout
+
+pcgstrf_copy_to_ucol.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U Glu_alloc
+0000000000000000 T pcgstrf_copy_to_ucol
+
+pcgstrf_pivotL.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U c_abs1
+                 U c_div
+0000000000000000 T pcgstrf_pivotL
+
+pcgstrf_column_dfs.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U Glu_alloc
+                 U NewNsuper
+0000000000000000 T pcgstrf_column_dfs
+                 U sp_ienv
+
+pcgstrf_column_bmod.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U cgemv_
+                 U ctrsv_
+                 U Glu_alloc
+0000000000000000 T pcgstrf_column_bmod
+
+pcgstrf_bmod1D.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U cgemv_
+                 U ctrsv_
+0000000000000000 T pcgstrf_bmod1D
+
+pcgstrf_bmod2D.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U cgemv_
+                 U ctrsv_
+0000000000000000 d first.2
+0000000000000000 b maxsuper.1
+0000000000000000 T pcgstrf_bmod2D
+0000000000000008 b rowblk.0
+                 U sp_ienv
+
+pcgstrf_bmod1D_mv2.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U cgemv_
+                 U cmatvec2
+                 U ctrsv_
+0000000000000000 T pcgstrf_bmod1D_mv2
+
+pcgstrf_bmod2D_mv2.o:
+                 U __stack_chk_fail
+                 U cgemv_
+                 U cmatvec2
+                 U ctrsv_
+0000000000000000 d first.2
+0000000000000000 b maxsuper.1
+0000000000000000 T pcgstrf_bmod2D_mv2
+0000000000000008 b rowblk.0
+                 U sp_ienv
+
+csp_blas2.o:
+                 U __stack_chk_fail
+                 U c_div
+                 U cgemv_
+                 U complexCalloc
+                 U ctrsv_
+                 U lsame_
+00000000000021b0 T sp_cgemv
+0000000000000000 T sp_ctrsv
+                 U sprintf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U xerbla_
+
+csp_blas3.o:
+0000000000000000 T sp_cgemm
+                 U sp_cgemv
+
+dcomplex.o:
+                 U cos
+0000000000000417 T d_cnjg
+0000000000000458 T d_imag
+                 U exit
+                 U exp
+                 U fwrite
+                 U sin
+                 U sqrt
+                 U stderr
+0000000000000208 T z_abs
+0000000000000314 T z_abs1
+0000000000000000 T z_div
+0000000000000393 T z_exp
+
+zreadhb.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __imp___acrt_iob_func
+                 U __mingw_vfprintf
+                 U __mingw_vfscanf
+                 U atof
+                 U atoi
+                 U fclose
+                 U fgetc
+                 U fgets
+0000000000000000 t fscanf
+0000000000000043 t printf
+                 U zallocateA
+0000000000000097 T zDumpLine
+0000000000000151 T zParseFloatFormat
+00000000000000c8 T zParseIntFormat
+00000000000004a6 T zreadhb
+0000000000000343 T zReadValues
+0000000000000265 T zReadVector
+
+zreadrb.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __imp___acrt_iob_func
+                 U __mingw_vfprintf
+                 U __mingw_vfscanf
+                 U atof
+                 U atoi
+                 U fclose
+                 U fgetc
+                 U fgets
+                 U fputs
+0000000000000000 t fscanf
+0000000000000043 t printf
+0000000000000265 t ReadVector
+                 U zallocateA
+0000000000000097 t zDumpLine
+0000000000000151 t zParseFloatFormat
+00000000000000c8 t zParseIntFormat
+00000000000004a6 T zreadrb
+0000000000000343 t zReadValues
+
+zmatgen.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __imp___acrt_iob_func
+                 U __mingw_vfprintf
+0000000000000468 T dlaran_
+0000000000000000 t printf
+                 U zallocateA
+0000000000000054 T zband
+0000000000000253 T zblockdiag
+
+dzsum1.o:
+0000000000000000 T dzsum1_
+                 U z_abs
+
+izmax1.o:
+0000000000000000 T izmax1_
+
+pzgssv.o:
+                 U __stack_chk_fail
+                 U Destroy_SuperMatrix_Store
+                 U PrintStat
+                 U pxgstrf_finalize
+0000000000000000 T pzgssv
+                 U pzgstrf
+                 U pzgstrf_init
+                 U sp_ienv
+                 U StatAlloc
+                 U StatFree
+                 U StatInit
+                 U superlu_free
+                 U superlu_malloc
+                 U SuperLU_timer_
+                 U xerbla_
+                 U zCreate_CompCol_Matrix
+                 U zgstrs
+
+pzgssvx.o:
+                 U __stack_chk_fail
+                 U Destroy_CompCol_Permuted
+                 U Destroy_SuperMatrix_Store
+                 U dlamch_
+                 U PrintStat
+0000000000000000 T pzgssvx
+                 U pzgstrf
+                 U sp_colorder
+                 U StatAlloc
+                 U StatFree
+                 U StatInit
+                 U superlu_free
+                 U superlu_malloc
+                 U SuperLU_timer_
+                 U superlu_zQuerySpace
+                 U xerbla_
+                 U zCreate_CompCol_Matrix
+                 U zgscon
+                 U zgsequ
+                 U zgsrfs
+                 U zgstrs
+                 U zlangs
+                 U zlaqgs
+                 U zPivotGrowth
+
+zgstrs.o:
+                 U __stack_chk_fail
+                 U doublecomplexCalloc
+                 U doublecomplexMalloc
+                 U printf
+                 U sp_ztrsv
+                 U sprintf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U xerbla_
+                 U z_div
+                 U zgemm_
+0000000000000000 T zgstrs
+0000000000001561 T zprint_soln
+                 U ztrsm_
+
+zgsrfs.o:
+                 U __stack_chk_fail
+                 U dlamch_
+                 U doublecomplexMalloc
+                 U intMalloc
+                 U sp_zgemv
+                 U sprintf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U superlu_malloc
+                 U xerbla_
+                 U z_abs
+                 U z_abs1
+                 U zaxpy_
+                 U zcopy_
+0000000000000000 T zgsrfs
+                 U zgstrs
+                 U zlacon_
+
+zgscon.o:
+                 U __stack_chk_fail
+                 U doublecomplexCalloc
+                 U lsame_
+                 U sp_ztrsv
+                 U sprintf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U xerbla_
+0000000000000000 T zgscon
+                 U zlacon_
+
+zlacon.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+0000000000000030 b altsgn.0
+                 U dlamch_
+                 U dzsum1_
+0000000000000020 b estold.2
+0000000000000000 b i.6
+0000000000000018 b iter.3
+                 U izmax1_
+0000000000000010 b j.4
+0000000000000028 b jlast.1
+0000000000000008 b jump.5
+                 U z_abs
+                 U zcopy_
+0000000000000000 T zlacon_
+
+zlangs.o:
+                 U __stack_chk_fail
+                 U lsame_
+                 U sprintf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U superlu_malloc
+                 U z_abs
+0000000000000000 T zlangs
+
+zgsequ.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U dlamch_
+                 U xerbla_
+                 U z_abs1
+0000000000000000 T zgsequ
+
+zlaqgs.o:
+                 U dlamch_
+0000000000000000 T zlaqgs
+
+zpivotgrowth.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U dlamch_
+                 U intMalloc
+                 U superlu_free
+                 U z_abs1
+0000000000000000 T zPivotGrowth
+
+pzmemory.o:
+                 U __stack_chk_fail
+000000000000157e T copy_mem_doublecomplex
+                 U copy_mem_int
+0000000000001ee1 T doublecomplexCalloc
+0000000000001e83 T doublecomplexMalloc
+                 U exit
+                 U fflush
+                 U fprintf
+                 U free
+                 U fwrite
+                 U getenv
+                 U ifill
+                 U intCalloc
+                 U intMalloc
+0000000000000078 b ndim
+0000000000000070 b no_expand
+                 U printf
+                 U pthread_mutex_destroy
+                 U pthread_mutex_init
+                 U pthread_mutex_lock
+                 U pthread_mutex_unlock
+                 U puts
+00000000000015ec T pzgstrf_expand
+0000000000000519 T pzgstrf_MemInit
+0000000000000477 T pzgstrf_memory_use
+00000000000013ca T pzgstrf_MemXpand
+0000000000001259 T pzgstrf_SetRWork
+0000000000000000 T pzgstrf_SetupSpace
+0000000000001bbf T pzgstrf_StackCompress
+0000000000000086 T pzgstrf_StackFree
+000000000000133d T pzgstrf_WorkFree
+0000000000001041 T pzgstrf_WorkInit
+                 U sp_ienv
+0000000000000020 b stack
+                 U stderr
+                 U stdout
+                 U superlu_free
+                 U superlu_malloc
+00000000000002ce T superlu_zQuerySpace
+00000000000001ed T superlu_zTempSpace
+                 U user_bcopy
+0000000000000080 b whichspace
+0000000000001e23 T zallocateA
+0000000000000000 B zexpanders
+                 U zfill
+0000000000001f88 T zPresetMap
+0000000000000176 T zuser_free
+00000000000000ab T zuser_malloc
+
+pzutil.o:
+                 U __stack_chk_fail
+                 U doublecomplexMalloc
+                 U fflush
+                 U intCalloc
+                 U intMalloc
+00000000000019e8 T print_doublecomplex_vec
+                 U printf
+                 U puts
+                 U sp_zgemm
+                 U sprintf
+                 U stdout
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U superlu_malloc
+                 U z_abs
+000000000000108d T zcheck_zero_vec
+0000000000000207 T zCompRow_to_CompCol
+0000000000000481 T zCopy_CompCol_Matrix
+0000000000000a7f T zCopy_Dense_Matrix
+0000000000000000 T zCreate_CompCol_Matrix
+0000000000000152 T zCreate_CompCol_Permuted
+00000000000000a9 T zCreate_CompRow_Matrix
+00000000000009ee T zCreate_Dense_Matrix
+0000000000000b25 T zCreate_SuperNode_Matrix
+0000000000000c10 T zCreate_SuperNode_Permuted
+000000000000140b T zfill
+00000000000012e2 T zFillRHS
+000000000000123d T zGenXtrue
+0000000000001479 T zinf_norm_error
+00000000000007bc T zPrint_CCS_to_triplets
+00000000000005ec T zPrint_CompCol_Matrix
+00000000000008e2 T zPrint_Dense_Matrix
+0000000000000d1f T zprint_lu_col
+000000000000165c T zPrintPerf
+
+zmyblas2.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U z_div
+0000000000000000 T zlsolve
+0000000000001014 T zmatvec
+00000000000016b8 T zmatvec2
+0000000000000df2 T zusolve
+
+pzgstrf.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$.refptr.pzgstrf_thread
+0000000000000000 r .rdata$zzz
+0000000000000000 R .refptr.pzgstrf_thread
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __imp___acrt_iob_func
+                 U __mingw_vfprintf
+                 U __mingw_vsprintf
+0000000000000000 t fprintf
+                 U pthread_create
+                 U pthread_join
+0000000000000086 T pzgstrf
+                 U pzgstrf_thread
+                 U pzgstrf_thread_finalize
+                 U pzgstrf_thread_init
+0000000000000043 t sprintf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U superlu_malloc
+                 U SuperLU_timer_
+                 U usertimer_
+
+pzgstrf_init.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __mingw_vsprintf
+                 U intMalloc
+0000000000000043 T pzgstrf_init
+                 U sp_colorder
+0000000000000000 t sprintf
+                 U superlu_abort_and_exit
+                 U SuperLU_timer_
+
+pzgstrf_thread.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U ifill
+                 U intMalloc
+                 U pxgstrf_mark_busy_descends
+                 U pxgstrf_pruneL
+                 U pxgstrf_resetrep_col
+                 U pxgstrf_scheduler
+                 U pxgstrf_SetIWork
+                 U pxgstrf_super_bnd_dfs
+                 U pzgstrf_column_bmod
+                 U pzgstrf_column_dfs
+                 U pzgstrf_copy_to_ucol
+                 U pzgstrf_factor_snode
+                 U pzgstrf_memory_use
+                 U pzgstrf_panel_bmod
+                 U pzgstrf_panel_dfs
+                 U pzgstrf_pivotL
+                 U pzgstrf_SetRWork
+0000000000000000 T pzgstrf_thread
+                 U pzgstrf_WorkFree
+                 U pzgstrf_WorkInit
+                 U superlu_free
+
+pzgstrf_thread_init.o:
+0000000000000000 b Glu.0
+                 U ifill
+                 U intCalloc
+                 U intMalloc
+                 U ParallelInit
+                 U pxgstrf_relax_snode
+                 U pzgstrf_MemInit
+0000000000000000 T pzgstrf_thread_init
+                 U superlu_free
+                 U superlu_malloc
+                 U zPresetMap
+
+pzgstrf_thread_finalize.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$.refptr.zexpanders
+0000000000000000 r .rdata$zzz
+0000000000000000 R .refptr.zexpanders
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U countnz
+                 U fixupL
+                 U ParallelFinalize
+0000000000000000 T pzgstrf_thread_finalize
+                 U superlu_free
+                 U zCreate_CompCol_Permuted
+                 U zCreate_SuperNode_Permuted
+                 U zexpanders
+
+pzgstrf_factor_snode.o:
+                 U __stack_chk_fail
+                 U Glu_alloc
+0000000000000000 T pzgstrf_factor_snode
+                 U pzgstrf_pivotL
+                 U pzgstrf_snode_bmod
+                 U pzgstrf_snode_dfs
+
+pzgstrf_snode_dfs.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U Glu_alloc
+                 U NewNsuper
+0000000000000000 T pzgstrf_snode_dfs
+
+pzgstrf_snode_bmod.o:
+                 U __stack_chk_fail
+0000000000000000 T pzgstrf_snode_bmod
+                 U zgemv_
+                 U ztrsv_
+
+pzgstrf_panel_dfs.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+0000000000000000 T pzgstrf_panel_dfs
+
+pzgstrf_panel_bmod.o:
+                 U await
+0000000000000000 t check_panel_dfs_list
+                 U fflush
+                 U printf
+                 U putchar
+                 U pzgstrf_bmod1D
+                 U pzgstrf_bmod2D
+00000000000000b2 T pzgstrf_panel_bmod
+                 U sp_ienv
+                 U stdout
+
+pzgstrf_copy_to_ucol.o:
+                 U __stack_chk_fail
+                 U Glu_alloc
+0000000000000000 T pzgstrf_copy_to_ucol
+
+pzgstrf_pivotL.o:
+                 U __stack_chk_fail
+0000000000000000 T pzgstrf_pivotL
+                 U z_abs1
+                 U z_div
+
+pzgstrf_column_dfs.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U Glu_alloc
+                 U NewNsuper
+0000000000000000 T pzgstrf_column_dfs
+                 U sp_ienv
+
+pzgstrf_column_bmod.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U Glu_alloc
+0000000000000000 T pzgstrf_column_bmod
+                 U zgemv_
+                 U ztrsv_
+
+pzgstrf_bmod1D.o:
+                 U __stack_chk_fail
+0000000000000000 T pzgstrf_bmod1D
+                 U zgemv_
+                 U ztrsv_
+
+pzgstrf_bmod2D.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+0000000000000000 d first.2
+0000000000000000 b maxsuper.1
+0000000000000000 T pzgstrf_bmod2D
+0000000000000008 b rowblk.0
+                 U sp_ienv
+                 U zgemv_
+                 U ztrsv_
+
+pzgstrf_bmod1D_mv2.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+0000000000000000 T pzgstrf_bmod1D_mv2
+                 U zgemv_
+                 U zmatvec2
+                 U ztrsv_
+
+pzgstrf_bmod2D_mv2.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+0000000000000000 d first.2
+0000000000000000 b maxsuper.1
+0000000000000000 T pzgstrf_bmod2D_mv2
+0000000000000008 b rowblk.0
+                 U sp_ienv
+                 U zgemv_
+                 U zmatvec2
+                 U ztrsv_
+
+zsp_blas2.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 N .debug_abbrev
+0000000000000000 N .debug_aranges
+0000000000000000 N .debug_frame
+0000000000000000 N .debug_info
+0000000000000000 N .debug_line
+0000000000000000 N .debug_line_str
+0000000000000000 N .debug_str
+0000000000000000 p .pdata
+0000000000000000 r .rdata
+0000000000000000 r .rdata$zzz
+0000000000000000 t .text
+0000000000000000 r .xdata
+                 U __mingw_vsprintf
+                 U doublecomplexCalloc
+                 U lsame_
+000000000000212f T sp_zgemv
+0000000000000043 T sp_ztrsv
+0000000000000000 t sprintf
+                 U superlu_abort_and_exit
+                 U superlu_free
+                 U xerbla_
+                 U z_div
+                 U zgemv_
+                 U ztrsv_
+
+zsp_blas3.o:
+0000000000000000 T sp_zgemm
+                 U sp_zgemv

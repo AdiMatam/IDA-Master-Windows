@@ -1,0 +1,38 @@
+Building KLU (Suitesparse):
+    
+    Only AMD, COLAMD, BTF, CAMD, CCOLAMD, CHOLAMD, KLU submodules. Others can be optionally commented out in the Makefile
+
+    Call `make local && make install`
+    Relevant headers and libraries will be placed in suitesparse/include, suitesparse/lib
+    Both static and shared libraries are stored in lib/
+
+Building SuperLU:
+    ## Warning: NEWER VERSIONS HAVE BEEN TROUBLESOME... colamd/BLAS runtime errors
+    1) Replace ./superlu/make.inc with ./superlu/lib/make.pthread. Change the name to make.inc after replacing
+    2) Make a `lib` directory in `./superlu`
+    3) Copy libopenblas.dll from C:/msys64/mingw64/bin/ to ./superlu/lib
+    4) Definitions in make.inc should look like: 
+        TMGLIB       	= libtmglib$(PLAT).a
+        SUPERLULIB   	= libsuperlu_mt$(PLAT).a
+        BLASDEF	        = -DUSE_VENDOR_BLAS
+        BLASLIB		= ../lib/libopenblas.dll
+
+        MATHLIB		= -lm 
+        MPLIB		= -lpthread
+        BLASLIB		= ../lib/libopenblas.dll
+
+    5) Run `make` 
+    6) At end of build, might get a 'header include' error... it can be ignored 
+
+Integrating with SUNDIALS:
+    builder.sh can be used to initialize a sundials environment with MPI, KLU, SuperLU_MT (pthread) solvers
+    
+    **BEFORE CALLING THE SCRIPT**
+    Install package: `pacman -S mingw-w64-x86_64-msmpi`
+    
+    KLU:
+        ida/cmake/tpl.FindKLU.cmake
+            -> Comment out conditional statement under SuiteSparseconfig section ("IF NOT MSYS.. BLAH BLAH")
+
+    SuperLU: Make sure these packages are installed
+        Copy `libopenblas.a` from C:/msys64/mingw64/lib/ to ./superlu/lib/

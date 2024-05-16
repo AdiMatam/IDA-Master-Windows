@@ -28,7 +28,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
       
       The C compiler identification is GNU, found in:
-        C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/3.26.4/CompilerIdC/a.exe
+        C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/3.26.4/CompilerIdC/a.exe
       
   -
     kind: "try_compile-v1"
@@ -39,8 +39,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-v7u5qf"
-      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-v7u5qf"
+      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-rmv1pk"
+      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-rmv1pk"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -49,9 +49,12 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-v7u5qf
+        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-rmv1pk
         
-        Run Build Command(s):C:/msys64/mingw64/bin/ninja.exe -v cmTC_ff8a0 && [1/2] C:\\msys64\\mingw64\\bin\\cc.exe   -v -o CMakeFiles/cmTC_ff8a0.dir/CMakeCCompilerABI.c.obj -c C:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s):C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_54cef/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_54cef.dir\\build.make CMakeFiles/cmTC_54cef.dir/build
+        mingw32-make[1]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-rmv1pk'
+        Building C object CMakeFiles/cmTC_54cef.dir/CMakeCCompilerABI.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe   -v -o CMakeFiles\\cmTC_54cef.dir\\CMakeCCompilerABI.c.obj -c C:\\msys64\\mingw64\\share\\cmake\\Modules\\CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\mingw64\\bin\\cc.exe
         Target: x86_64-w64-mingw32
@@ -59,11 +62,12 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.1.0 (Rev7, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ff8a0.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_ff8a0.dir/'
-         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ff8a0.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\msys64\\tmp\\ccQNTaR7.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_54cef.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_54cef.dir\\'
+         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\msys64\\mingw64\\share\\cmake\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_54cef.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\ADITYA~1\\AppData\\Local\\Temp\\ccpR2Ou5.s
         GNU C17 (Rev7, Built by MSYS2 project) version 13.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p9, MPC version 1.3.1, isl version isl-0.26-GMP
         
+        warning: GMP header version 6.2.1 differs from library version 6.3.0.
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         ignoring nonexistent directory "C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
         ignoring duplicate directory "C:/msys64/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
@@ -79,13 +83,17 @@ events:
          C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
         End of search list.
         Compiler executable checksum: 79cd6bb259be143c9b3acca47f926a3f
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ff8a0.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_ff8a0.dir/'
-         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_ff8a0.dir/CMakeCCompilerABI.c.obj C:\\msys64\\tmp\\ccQNTaR7.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_54cef.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_54cef.dir\\'
+         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_54cef.dir\\CMakeCCompilerABI.c.obj C:\\Users\\ADITYA~1\\AppData\\Local\\Temp\\ccpR2Ou5.s
         GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
         COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
-        LIBRARY_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../\x0d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ff8a0.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_ff8a0.dir/CMakeCCompilerABI.c.'\x0d
-        [2/2] cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe  -v CMakeFiles/cmTC_ff8a0.dir/CMakeCCompilerABI.c.obj -o cmTC_ff8a0.exe -Wl,--out-implib,libcmTC_ff8a0.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        LIBRARY_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_54cef.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_54cef.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_54cef.exe
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_54cef.dir\\link.txt --verbose=1
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_54cef.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_54cef.dir/objects.a @CMakeFiles\\cmTC_54cef.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_54cef.dir/objects.a -Wl,--no-whole-archive -o cmTC_54cef.exe -Wl,--out-implib,libcmTC_54cef.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\mingw64\\bin\\cc.exe
         COLLECT_LTO_WRAPPER=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
@@ -96,9 +104,10 @@ events:
         gcc version 13.1.0 (Rev7, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ff8a0.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_ff8a0.'
-         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\msys64\\tmp\\ccnCqpry.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_ff8a0.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_ff8a0.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_ff8a0.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ff8a0.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_ff8a0.'\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_54cef.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_54cef.'
+         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ADITYA~1\\AppData\\Local\\Temp\\cc2U6fLd.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_54cef.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_54cef.dir/objects.a --no-whole-archive --out-implib libcmTC_54cef.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_54cef.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_54cef.'
+        mingw32-make[1]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-rmv1pk'
         
       exitCode: 0
   -
@@ -130,9 +139,12 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-v7u5qf]
+        ignore line: [Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-rmv1pk]
         ignore line: []
-        ignore line: [Run Build Command(s):C:/msys64/mingw64/bin/ninja.exe -v cmTC_ff8a0 && [1/2] C:\\msys64\\mingw64\\bin\\cc.exe   -v -o CMakeFiles/cmTC_ff8a0.dir/CMakeCCompilerABI.c.obj -c C:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s):C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_54cef/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_54cef.dir\\build.make CMakeFiles/cmTC_54cef.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-rmv1pk']
+        ignore line: [Building C object CMakeFiles/cmTC_54cef.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\msys64\\mingw64\\bin\\cc.exe   -v -o CMakeFiles\\cmTC_54cef.dir\\CMakeCCompilerABI.c.obj -c C:\\msys64\\mingw64\\share\\cmake\\Modules\\CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\mingw64\\bin\\cc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -140,11 +152,12 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.1.0 (Rev7  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ff8a0.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_ff8a0.dir/']
-        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ff8a0.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\msys64\\tmp\\ccQNTaR7.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_54cef.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_54cef.dir\\']
+        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\msys64\\mingw64\\share\\cmake\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_54cef.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\ADITYA~1\\AppData\\Local\\Temp\\ccpR2Ou5.s]
         ignore line: [GNU C17 (Rev7  Built by MSYS2 project) version 13.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p9  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
+        ignore line: [warning: GMP header version 6.2.1 differs from library version 6.3.0.]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
         ignore line: [ignoring duplicate directory "C:/msys64/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
@@ -160,8 +173,8 @@ events:
         ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 79cd6bb259be143c9b3acca47f926a3f]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ff8a0.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_ff8a0.dir/']
-        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_ff8a0.dir/CMakeCCompilerABI.c.obj C:\\msys64\\tmp\\ccQNTaR7.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_54cef.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_54cef.dir\\']
+        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_54cef.dir\\CMakeCCompilerABI.c.obj C:\\Users\\ADITYA~1\\AppData\\Local\\Temp\\ccpR2Ou5.s]
         ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
         ignore line: [COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/]
@@ -171,9 +184,13 @@ events:
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
-        ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../\x0d]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ff8a0.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_ff8a0.dir/CMakeCCompilerABI.c.'\x0d]
-        ignore line: [[2/2] cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe  -v CMakeFiles/cmTC_ff8a0.dir/CMakeCCompilerABI.c.obj -o cmTC_ff8a0.exe -Wl --out-implib libcmTC_ff8a0.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_54cef.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_54cef.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_54cef.exe]
+        ignore line: [C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_54cef.dir\\link.txt --verbose=1]
+        ignore line: [C:\\msys64\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_54cef.dir/objects.a]
+        ignore line: [C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_54cef.dir/objects.a @CMakeFiles\\cmTC_54cef.dir\\objects1.rsp]
+        ignore line: [C:\\msys64\\mingw64\\bin\\cc.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_54cef.dir/objects.a -Wl --no-whole-archive -o cmTC_54cef.exe -Wl --out-implib libcmTC_54cef.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\mingw64\\bin\\cc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
@@ -191,13 +208,13 @@ events:
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ff8a0.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_ff8a0.']
-        link line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\msys64\\tmp\\ccnCqpry.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_ff8a0.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_ff8a0.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_ff8a0.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_54cef.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_54cef.']
+        link line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ADITYA~1\\AppData\\Local\\Temp\\cc2U6fLd.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_54cef.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_54cef.dir/objects.a --no-whole-archive --out-implib libcmTC_54cef.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\msys64\\tmp\\ccnCqpry.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\ADITYA~1\\AppData\\Local\\Temp\\cc2U6fLd.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -221,7 +238,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_ff8a0.exe] ==> ignore
+          arg [cmTC_54cef.exe] ==> ignore
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o] ==> obj [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o]
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
           arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
@@ -230,9 +247,11 @@ events:
           arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib]
           arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
-          arg [CMakeFiles/cmTC_ff8a0.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_54cef.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_ff8a0.dll.a] ==> ignore
+          arg [libcmTC_54cef.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -289,8 +308,8 @@ events:
     checks:
       - "Looking for sys/types.h"
     directories:
-      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-swobur"
-      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-swobur"
+      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-t4ogb8"
+      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-t4ogb8"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -300,10 +319,18 @@ events:
       variable: "HAVE_SYS_TYPES_H"
       cached: true
       stdout: |
-        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-swobur
+        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-t4ogb8
         
-        Run Build Command(s):C:/msys64/mingw64/bin/ninja.exe -v cmTC_b3056 && [1/2] C:\\msys64\\mingw64\\bin\\cc.exe    -o CMakeFiles/cmTC_b3056.dir/CheckIncludeFile.c.obj -c C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-swobur/CheckIncludeFile.c
-        [2/2] cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_b3056.dir/CheckIncludeFile.c.obj -o cmTC_b3056.exe -Wl,--out-implib,libcmTC_b3056.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s):C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_40256/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_40256.dir\\build.make CMakeFiles/cmTC_40256.dir/build
+        mingw32-make[1]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-t4ogb8'
+        Building C object CMakeFiles/cmTC_40256.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe    -o CMakeFiles\\cmTC_40256.dir\\CheckIncludeFile.c.obj -c C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\CMakeFiles\\CMakeScratch\\TryCompile-t4ogb8\\CheckIncludeFile.c
+        Linking C executable cmTC_40256.exe
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_40256.dir\\link.txt --verbose=1
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_40256.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_40256.dir/objects.a @CMakeFiles\\cmTC_40256.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -Wl,--whole-archive CMakeFiles\\cmTC_40256.dir/objects.a -Wl,--no-whole-archive -o cmTC_40256.exe -Wl,--out-implib,libcmTC_40256.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_40256.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-t4ogb8'
         
       exitCode: 0
   -
@@ -317,8 +344,8 @@ events:
     checks:
       - "Looking for stdint.h"
     directories:
-      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-jsgwx2"
-      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-jsgwx2"
+      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-pwheuu"
+      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-pwheuu"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -328,10 +355,18 @@ events:
       variable: "HAVE_STDINT_H"
       cached: true
       stdout: |
-        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-jsgwx2
+        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-pwheuu
         
-        Run Build Command(s):C:/msys64/mingw64/bin/ninja.exe -v cmTC_026bd && [1/2] C:\\msys64\\mingw64\\bin\\cc.exe    -o CMakeFiles/cmTC_026bd.dir/CheckIncludeFile.c.obj -c C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-jsgwx2/CheckIncludeFile.c
-        [2/2] cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_026bd.dir/CheckIncludeFile.c.obj -o cmTC_026bd.exe -Wl,--out-implib,libcmTC_026bd.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s):C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ea5da/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ea5da.dir\\build.make CMakeFiles/cmTC_ea5da.dir/build
+        mingw32-make[1]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-pwheuu'
+        Building C object CMakeFiles/cmTC_ea5da.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe    -o CMakeFiles\\cmTC_ea5da.dir\\CheckIncludeFile.c.obj -c C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\CMakeFiles\\CMakeScratch\\TryCompile-pwheuu\\CheckIncludeFile.c
+        Linking C executable cmTC_ea5da.exe
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_ea5da.dir\\link.txt --verbose=1
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_ea5da.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_ea5da.dir/objects.a @CMakeFiles\\cmTC_ea5da.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -Wl,--whole-archive CMakeFiles\\cmTC_ea5da.dir/objects.a -Wl,--no-whole-archive -o cmTC_ea5da.exe -Wl,--out-implib,libcmTC_ea5da.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_ea5da.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-pwheuu'
         
       exitCode: 0
   -
@@ -345,8 +380,8 @@ events:
     checks:
       - "Looking for stddef.h"
     directories:
-      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-m027m2"
-      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-m027m2"
+      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-zq2pyy"
+      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-zq2pyy"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -356,10 +391,18 @@ events:
       variable: "HAVE_STDDEF_H"
       cached: true
       stdout: |
-        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-m027m2
+        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-zq2pyy
         
-        Run Build Command(s):C:/msys64/mingw64/bin/ninja.exe -v cmTC_9915a && [1/2] C:\\msys64\\mingw64\\bin\\cc.exe    -o CMakeFiles/cmTC_9915a.dir/CheckIncludeFile.c.obj -c C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-m027m2/CheckIncludeFile.c
-        [2/2] cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_9915a.dir/CheckIncludeFile.c.obj -o cmTC_9915a.exe -Wl,--out-implib,libcmTC_9915a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s):C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_47e4f/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_47e4f.dir\\build.make CMakeFiles/cmTC_47e4f.dir/build
+        mingw32-make[1]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-zq2pyy'
+        Building C object CMakeFiles/cmTC_47e4f.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe    -o CMakeFiles\\cmTC_47e4f.dir\\CheckIncludeFile.c.obj -c C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\CMakeFiles\\CMakeScratch\\TryCompile-zq2pyy\\CheckIncludeFile.c
+        Linking C executable cmTC_47e4f.exe
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_47e4f.dir\\link.txt --verbose=1
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_47e4f.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_47e4f.dir/objects.a @CMakeFiles\\cmTC_47e4f.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -Wl,--whole-archive CMakeFiles\\cmTC_47e4f.dir/objects.a -Wl,--no-whole-archive -o cmTC_47e4f.exe -Wl,--out-implib,libcmTC_47e4f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_47e4f.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-zq2pyy'
         
       exitCode: 0
   -
@@ -373,8 +416,8 @@ events:
     checks:
       - "Check size of int64_t"
     directories:
-      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-fflrbc"
-      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-fflrbc"
+      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-r0pf1i"
+      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-r0pf1i"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -384,10 +427,18 @@ events:
       variable: "HAVE_HAS_int64_t"
       cached: true
       stdout: |
-        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-fflrbc
+        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-r0pf1i
         
-        Run Build Command(s):C:/msys64/mingw64/bin/ninja.exe -v cmTC_38ab0 && [1/2] C:\\msys64\\mingw64\\bin\\cc.exe    -o CMakeFiles/cmTC_38ab0.dir/HAS_int64_t.c.obj -c C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-fflrbc/HAS_int64_t.c
-        [2/2] cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_38ab0.dir/HAS_int64_t.c.obj -o cmTC_38ab0.exe -Wl,--out-implib,libcmTC_38ab0.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s):C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2a608/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2a608.dir\\build.make CMakeFiles/cmTC_2a608.dir/build
+        mingw32-make[1]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-r0pf1i'
+        Building C object CMakeFiles/cmTC_2a608.dir/HAS_int64_t.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe    -o CMakeFiles\\cmTC_2a608.dir\\HAS_int64_t.c.obj -c C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\CMakeFiles\\CMakeScratch\\TryCompile-r0pf1i\\HAS_int64_t.c
+        Linking C executable cmTC_2a608.exe
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_2a608.dir\\link.txt --verbose=1
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_2a608.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_2a608.dir/objects.a @CMakeFiles\\cmTC_2a608.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -Wl,--whole-archive CMakeFiles\\cmTC_2a608.dir/objects.a -Wl,--no-whole-archive -o cmTC_2a608.exe -Wl,--out-implib,libcmTC_2a608.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_2a608.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-r0pf1i'
         
       exitCode: 0
   -
@@ -400,8 +451,8 @@ events:
     checks:
       - "Performing Test SUNDIALS_C_COMPILER_HAS_BUILTIN_EXPECT"
     directories:
-      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-tv5izv"
-      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-tv5izv"
+      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-hmtqjl"
+      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-hmtqjl"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -411,10 +462,18 @@ events:
       variable: "SUNDIALS_C_COMPILER_HAS_BUILTIN_EXPECT"
       cached: true
       stdout: |
-        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-tv5izv
+        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-hmtqjl
         
-        Run Build Command(s):C:/msys64/mingw64/bin/ninja.exe -v cmTC_3c4cc && [1/2] C:\\msys64\\mingw64\\bin\\cc.exe -DSUNDIALS_C_COMPILER_HAS_BUILTIN_EXPECT  -std=gnu99 -o CMakeFiles/cmTC_3c4cc.dir/src.c.obj -c C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-tv5izv/src.c
-        [2/2] cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_3c4cc.dir/src.c.obj -o cmTC_3c4cc.exe -Wl,--out-implib,libcmTC_3c4cc.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s):C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_333a3/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_333a3.dir\\build.make CMakeFiles/cmTC_333a3.dir/build
+        mingw32-make[1]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-hmtqjl'
+        Building C object CMakeFiles/cmTC_333a3.dir/src.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe -DSUNDIALS_C_COMPILER_HAS_BUILTIN_EXPECT  -std=gnu99 -o CMakeFiles\\cmTC_333a3.dir\\src.c.obj -c C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\CMakeFiles\\CMakeScratch\\TryCompile-hmtqjl\\src.c
+        Linking C executable cmTC_333a3.exe
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_333a3.dir\\link.txt --verbose=1
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_333a3.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_333a3.dir/objects.a @CMakeFiles\\cmTC_333a3.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -Wl,--whole-archive CMakeFiles\\cmTC_333a3.dir/objects.a -Wl,--no-whole-archive -o cmTC_333a3.exe -Wl,--out-implib,libcmTC_333a3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_333a3.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-hmtqjl'
         
       exitCode: 0
   -
@@ -427,8 +486,8 @@ events:
     checks:
       - "Performing Test SUNDIALS_C_COMPILER_HAS_ATTRIBUTE_ASSUME"
     directories:
-      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-kbqjus"
-      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-kbqjus"
+      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-u320kg"
+      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-u320kg"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -438,10 +497,18 @@ events:
       variable: "SUNDIALS_C_COMPILER_HAS_ATTRIBUTE_ASSUME"
       cached: true
       stdout: |
-        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-kbqjus
+        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-u320kg
         
-        Run Build Command(s):C:/msys64/mingw64/bin/ninja.exe -v cmTC_ced58 && [1/2] C:\\msys64\\mingw64\\bin\\cc.exe -DSUNDIALS_C_COMPILER_HAS_ATTRIBUTE_ASSUME  -std=gnu99 -o CMakeFiles/cmTC_ced58.dir/src.c.obj -c C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-kbqjus/src.c
-        [2/2] cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_ced58.dir/src.c.obj -o cmTC_ced58.exe -Wl,--out-implib,libcmTC_ced58.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s):C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_f8e62/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f8e62.dir\\build.make CMakeFiles/cmTC_f8e62.dir/build
+        mingw32-make[1]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-u320kg'
+        Building C object CMakeFiles/cmTC_f8e62.dir/src.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe -DSUNDIALS_C_COMPILER_HAS_ATTRIBUTE_ASSUME  -std=gnu99 -o CMakeFiles\\cmTC_f8e62.dir\\src.c.obj -c C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\CMakeFiles\\CMakeScratch\\TryCompile-u320kg\\src.c
+        Linking C executable cmTC_f8e62.exe
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_f8e62.dir\\link.txt --verbose=1
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_f8e62.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_f8e62.dir/objects.a @CMakeFiles\\cmTC_f8e62.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -Wl,--whole-archive CMakeFiles\\cmTC_f8e62.dir/objects.a -Wl,--no-whole-archive -o cmTC_f8e62.exe -Wl,--out-implib,libcmTC_f8e62.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_f8e62.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-u320kg'
         
       exitCode: 0
   -
@@ -452,16 +519,38 @@ events:
       - "cmake/SundialsSetupCompilers.cmake:194 (include)"
       - "CMakeLists.txt:180 (include)"
     directories:
-      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/POSIX_TIMER_TEST"
-      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/POSIX_TIMER_TEST"
+      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST"
+      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST"
     buildResult:
       variable: "COMPILE_OK"
       cached: true
       stdout: |
-        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/POSIX_TIMER_TEST
+        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST
         
-        Run Build Command(s):C:/msys64/mingw64/bin/ninja.exe -v && [1/2] C:\\msys64\\mingw64\\bin\\cc.exe   -O2 -g -DNDEBUG -std=gnu99 -o CMakeFiles/ltest.dir/ltest.c.obj -c C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/POSIX_TIMER_TEST/ltest.c
-        [2/2] cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe -O2 -g -DNDEBUG  CMakeFiles/ltest.dir/ltest.c.obj -o ltest.exe -Wl,--out-implib,libltest.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s):C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile && C:\\msys64\\mingw64\\bin\\cmake.exe -SC:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST -BC:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST --check-build-system CMakeFiles\\Makefile.cmake 0
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_progress_start C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\\\CMakeFiles\\progress.marks
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make[1]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\ltest.dir\\build.make CMakeFiles/ltest.dir/depend
+        mingw32-make[2]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles\\ltest.dir\\DependInfo.cmake
+        Dependee "C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles\\ltest.dir\\DependInfo.cmake" is newer than depender "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST/CMakeFiles/ltest.dir/depend.internal".
+        Dependee "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST/CMakeFiles/ltest.dir/depend.internal".
+        Scanning dependencies of target ltest
+        mingw32-make[2]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\ltest.dir\\build.make CMakeFiles/ltest.dir/build
+        mingw32-make[2]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        [ 50%] Building C object CMakeFiles/ltest.dir/ltest.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe   -O2 -g -DNDEBUG -std=gnu99 -o CMakeFiles\\ltest.dir\\ltest.c.obj -c C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\ltest.c
+        [100%] Linking C executable ltest.exe
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\ltest.dir\\link.txt --verbose=1
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\ltest.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\ltest.dir/objects.a @CMakeFiles\\ltest.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -O2 -g -DNDEBUG -Wl,--whole-archive CMakeFiles\\ltest.dir/objects.a -Wl,--no-whole-archive -o ltest.exe -Wl,--out-implib,libltest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\ltest.dir\\linkLibs.rsp
+        mingw32-make[2]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        [100%] Built target ltest
+        mingw32-make[1]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_progress_start C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles 0
         
       exitCode: 0
   -
@@ -474,8 +563,8 @@ events:
     checks:
       - "Performing Test COMPILER_HAS_DEPRECATED_MSG"
     directories:
-      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-8vxlpb"
-      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-8vxlpb"
+      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-t06dhe"
+      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-t06dhe"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -485,17 +574,25 @@ events:
       variable: "COMPILER_HAS_DEPRECATED_MSG"
       cached: true
       stdout: |
-        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-8vxlpb
+        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-t06dhe
         
-        Run Build Command(s):C:/msys64/mingw64/bin/ninja.exe -v cmTC_230a3 && [1/2] C:\\msys64\\mingw64\\bin\\cc.exe -DCOMPILER_HAS_DEPRECATED_MSG  -std=gnu99 -o CMakeFiles/cmTC_230a3.dir/src.c.obj -c C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-8vxlpb/src.c
-        C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-8vxlpb/src.c: In function 'main':
-        C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-8vxlpb/src.c:4:3: warning: 'somefunc' is deprecated: test [-Wdeprecated-declarations]
+        Run Build Command(s):C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_53b7d/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_53b7d.dir\\build.make CMakeFiles/cmTC_53b7d.dir/build
+        mingw32-make[1]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-t06dhe'
+        Building C object CMakeFiles/cmTC_53b7d.dir/src.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe -DCOMPILER_HAS_DEPRECATED_MSG  -std=gnu99 -o CMakeFiles\\cmTC_53b7d.dir\\src.c.obj -c C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\CMakeFiles\\CMakeScratch\\TryCompile-t06dhe\\src.c
+        C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\CMakeFiles\\CMakeScratch\\TryCompile-t06dhe\\src.c: In function 'main':
+        C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\CMakeFiles\\CMakeScratch\\TryCompile-t06dhe\\src.c:4:3: warning: 'somefunc' is deprecated: test [-Wdeprecated-declarations]
             4 |   int main(void) { return somefunc();}
               |   ^~~
-        C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-8vxlpb/src.c:3:35: note: declared here
+        C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\CMakeFiles\\CMakeScratch\\TryCompile-t06dhe\\src.c:3:35: note: declared here
             3 |   __declspec(deprecated(msg)) int somefunc(void) { return 0; }
               |                                   ^~~~~~~~
-        [2/2] cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_230a3.dir/src.c.obj -o cmTC_230a3.exe -Wl,--out-implib,libcmTC_230a3.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Linking C executable cmTC_53b7d.exe
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_53b7d.dir\\link.txt --verbose=1
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_53b7d.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_53b7d.dir/objects.a @CMakeFiles\\cmTC_53b7d.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -Wl,--whole-archive CMakeFiles\\cmTC_53b7d.dir/objects.a -Wl,--no-whole-archive -o cmTC_53b7d.exe -Wl,--out-implib,libcmTC_53b7d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_53b7d.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-t06dhe'
         
       exitCode: 0
   -
@@ -510,8 +607,8 @@ events:
     checks:
       - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
     directories:
-      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-fz6o02"
-      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-fz6o02"
+      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-czwc83"
+      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-czwc83"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -521,17 +618,25 @@ events:
       variable: "COMPILER_HAS_DEPRECATED_ATTR"
       cached: true
       stdout: |
-        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-fz6o02
+        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-czwc83
         
-        Run Build Command(s):C:/msys64/mingw64/bin/ninja.exe -v cmTC_92b53 && [1/2] C:\\msys64\\mingw64\\bin\\cc.exe -DCOMPILER_HAS_DEPRECATED_ATTR  -std=gnu99 -o CMakeFiles/cmTC_92b53.dir/src.c.obj -c C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-fz6o02/src.c
-        C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-fz6o02/src.c: In function 'main':
-        C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-fz6o02/src.c:2:5: warning: 'somefunc' is deprecated [-Wdeprecated-declarations]
+        Run Build Command(s):C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_0c752/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0c752.dir\\build.make CMakeFiles/cmTC_0c752.dir/build
+        mingw32-make[1]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-czwc83'
+        Building C object CMakeFiles/cmTC_0c752.dir/src.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe -DCOMPILER_HAS_DEPRECATED_ATTR  -std=gnu99 -o CMakeFiles\\cmTC_0c752.dir\\src.c.obj -c C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\CMakeFiles\\CMakeScratch\\TryCompile-czwc83\\src.c
+        C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\CMakeFiles\\CMakeScratch\\TryCompile-czwc83\\src.c: In function 'main':
+        C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\CMakeFiles\\CMakeScratch\\TryCompile-czwc83\\src.c:2:5: warning: 'somefunc' is deprecated [-Wdeprecated-declarations]
             2 |     int main() { return somefunc();}
               |     ^~~
-        C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-fz6o02/src.c:1:37: note: declared here
+        C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\CMakeFiles\\CMakeScratch\\TryCompile-czwc83\\src.c:1:37: note: declared here
             1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
               |                                     ^~~~~~~~
-        [2/2] cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_92b53.dir/src.c.obj -o cmTC_92b53.exe -Wl,--out-implib,libcmTC_92b53.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Linking C executable cmTC_0c752.exe
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_0c752.dir\\link.txt --verbose=1
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_0c752.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_0c752.dir/objects.a @CMakeFiles\\cmTC_0c752.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -Wl,--whole-archive CMakeFiles\\cmTC_0c752.dir/objects.a -Wl,--no-whole-archive -o cmTC_0c752.exe -Wl,--out-implib,libcmTC_0c752.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_0c752.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-czwc83'
         
       exitCode: 0
 ...
@@ -546,16 +651,38 @@ events:
       - "cmake/SundialsSetupCompilers.cmake:194 (include)"
       - "CMakeLists.txt:180 (include)"
     directories:
-      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/POSIX_TIMER_TEST"
-      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/POSIX_TIMER_TEST"
+      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST"
+      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST"
     buildResult:
       variable: "COMPILE_OK"
       cached: true
       stdout: |
-        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/POSIX_TIMER_TEST
+        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST
         
-        Run Build Command(s):C:/msys64/mingw64/bin/ninja.exe -v && [1/2] C:\\msys64\\mingw64\\bin\\cc.exe   -O2 -g -DNDEBUG -std=gnu99 -o CMakeFiles/ltest.dir/ltest.c.obj -c C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/POSIX_TIMER_TEST/ltest.c
-        [2/2] cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe -O2 -g -DNDEBUG  CMakeFiles/ltest.dir/ltest.c.obj -o ltest.exe -Wl,--out-implib,libltest.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s):C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile && C:\\msys64\\mingw64\\bin\\cmake.exe -SC:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST -BC:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST --check-build-system CMakeFiles\\Makefile.cmake 0
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_progress_start C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\\\CMakeFiles\\progress.marks
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make[1]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\ltest.dir\\build.make CMakeFiles/ltest.dir/depend
+        mingw32-make[2]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles\\ltest.dir\\DependInfo.cmake
+        Dependee "C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles\\ltest.dir\\DependInfo.cmake" is newer than depender "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST/CMakeFiles/ltest.dir/depend.internal".
+        Dependee "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST/CMakeFiles/ltest.dir/depend.internal".
+        Scanning dependencies of target ltest
+        mingw32-make[2]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\ltest.dir\\build.make CMakeFiles/ltest.dir/build
+        mingw32-make[2]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        [ 50%] Building C object CMakeFiles/ltest.dir/ltest.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe   -g -std=gnu99 -o CMakeFiles\\ltest.dir\\ltest.c.obj -c C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\ltest.c
+        [100%] Linking C executable ltest.exe
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\ltest.dir\\link.txt --verbose=1
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\ltest.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\ltest.dir/objects.a @CMakeFiles\\ltest.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -g -Wl,--whole-archive CMakeFiles\\ltest.dir/objects.a -Wl,--no-whole-archive -o ltest.exe -Wl,--out-implib,libltest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\ltest.dir\\linkLibs.rsp
+        mingw32-make[2]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        [100%] Built target ltest
+        mingw32-make[1]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_progress_start C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles 0
         
       exitCode: 0
   -
@@ -565,15 +692,14 @@ events:
       - "C:/msys64/mingw64/share/cmake/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
       - "C:/msys64/mingw64/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
       - "C:/msys64/mingw64/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
-      - "cmake/tpl/FindSUPERLUMT.cmake:48 (find_package)"
-      - "cmake/tpl/SundialsSuperLUMT.cmake:48 (find_package)"
-      - "cmake/SundialsSetupTPLs.cmake:185 (include)"
+      - "cmake/tpl/SundialsPthread.cmake:44 (find_package)"
+      - "cmake/SundialsSetupTPLs.cmake:158 (include)"
       - "CMakeLists.txt:186 (include)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-tywetq"
-      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-tywetq"
+      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-d8c8v5"
+      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-d8c8v5"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -583,10 +709,326 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-tywetq
+        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-d8c8v5
         
-        Run Build Command(s):C:/msys64/mingw64/bin/ninja.exe -v cmTC_1c6ee && [1/2] C:\\msys64\\mingw64\\bin\\cc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu99 -o CMakeFiles/cmTC_1c6ee.dir/src.c.obj -c C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build/CMakeFiles/CMakeScratch/TryCompile-tywetq/src.c
-        [2/2] cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_1c6ee.dir/src.c.obj -o cmTC_1c6ee.exe -Wl,--out-implib,libcmTC_1c6ee.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s):C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_51999/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_51999.dir\\build.make CMakeFiles/cmTC_51999.dir/build
+        mingw32-make[1]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-d8c8v5'
+        Building C object CMakeFiles/cmTC_51999.dir/src.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu99 -o CMakeFiles\\cmTC_51999.dir\\src.c.obj -c C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\CMakeFiles\\CMakeScratch\\TryCompile-d8c8v5\\src.c
+        Linking C executable cmTC_51999.exe
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_51999.dir\\link.txt --verbose=1
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_51999.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_51999.dir/objects.a @CMakeFiles\\cmTC_51999.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -Wl,--whole-archive CMakeFiles\\cmTC_51999.dir/objects.a -Wl,--no-whole-archive -o cmTC_51999.exe -Wl,--out-implib,libcmTC_51999.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_51999.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/CMakeFiles/CMakeScratch/TryCompile-d8c8v5'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:66 (try_compile)"
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:75 (posix_timers_test)"
+      - "cmake/SundialsSetupCompilers.cmake:194 (include)"
+      - "CMakeLists.txt:180 (include)"
+    directories:
+      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST"
+      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST
+        
+        Run Build Command(s):C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile && C:\\msys64\\mingw64\\bin\\cmake.exe -SC:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST -BC:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST --check-build-system CMakeFiles\\Makefile.cmake 0
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_progress_start C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\\\CMakeFiles\\progress.marks
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make[1]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\ltest.dir\\build.make CMakeFiles/ltest.dir/depend
+        mingw32-make[2]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles\\ltest.dir\\DependInfo.cmake
+        Dependee "C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles\\ltest.dir\\DependInfo.cmake" is newer than depender "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST/CMakeFiles/ltest.dir/depend.internal".
+        Dependee "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST/CMakeFiles/ltest.dir/depend.internal".
+        Scanning dependencies of target ltest
+        mingw32-make[2]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\ltest.dir\\build.make CMakeFiles/ltest.dir/build
+        mingw32-make[2]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        [ 50%] Building C object CMakeFiles/ltest.dir/ltest.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe   -g -std=gnu99 -o CMakeFiles\\ltest.dir\\ltest.c.obj -c C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\ltest.c
+        [100%] Linking C executable ltest.exe
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\ltest.dir\\link.txt --verbose=1
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\ltest.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\ltest.dir/objects.a @CMakeFiles\\ltest.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -g -Wl,--whole-archive CMakeFiles\\ltest.dir/objects.a -Wl,--no-whole-archive -o ltest.exe -Wl,--out-implib,libltest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\ltest.dir\\linkLibs.rsp
+        mingw32-make[2]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        [100%] Built target ltest
+        mingw32-make[1]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_progress_start C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles 0
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsSuperLUMT.cmake:94 (try_compile)"
+      - "cmake/SundialsSetupTPLs.cmake:185 (include)"
+      - "CMakeLists.txt:186 (include)"
+    directories:
+      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/SUPERLUMT_TEST"
+      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/SUPERLUMT_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/SUPERLUMT_TEST
+        
+        Run Build Command(s):C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile && C:\\msys64\\mingw64\\bin\\cmake.exe -SC:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\SUPERLUMT_TEST -BC:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\SUPERLUMT_TEST --check-build-system CMakeFiles\\Makefile.cmake 0
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_progress_start C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\SUPERLUMT_TEST\\CMakeFiles C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\SUPERLUMT_TEST\\\\CMakeFiles\\progress.marks
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make[1]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/SUPERLUMT_TEST'
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\ltest.dir\\build.make CMakeFiles/ltest.dir/depend
+        mingw32-make[2]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/SUPERLUMT_TEST'
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\SUPERLUMT_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\SUPERLUMT_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\SUPERLUMT_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\SUPERLUMT_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\SUPERLUMT_TEST\\CMakeFiles\\ltest.dir\\DependInfo.cmake
+        Dependee "C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\SUPERLUMT_TEST\\CMakeFiles\\ltest.dir\\DependInfo.cmake" is newer than depender "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/SUPERLUMT_TEST/CMakeFiles/ltest.dir/depend.internal".
+        Dependee "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/SUPERLUMT_TEST/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/SUPERLUMT_TEST/CMakeFiles/ltest.dir/depend.internal".
+        Scanning dependencies of target ltest
+        mingw32-make[2]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/SUPERLUMT_TEST'
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\ltest.dir\\build.make CMakeFiles/ltest.dir/build
+        mingw32-make[2]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/SUPERLUMT_TEST'
+        [ 50%] Building C object CMakeFiles/ltest.dir/ltest.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe  @CMakeFiles/ltest.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\ltest.dir\\ltest.c.obj -c C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\SUPERLUMT_TEST\\ltest.c
+        mingw32-make[2]: *** No rule to make target '/mingw64/lib/libopenblas.a', needed by 'ltest.exe'.  Stop.
+        mingw32-make[2]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/SUPERLUMT_TEST'
+        mingw32-make[1]: *** [CMakeFiles\\Makefile2:85: CMakeFiles/ltest.dir/all] Error 2
+        mingw32-make[1]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/SUPERLUMT_TEST'
+        mingw32-make: *** [Makefile:93: all] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:66 (try_compile)"
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:75 (posix_timers_test)"
+      - "cmake/SundialsSetupCompilers.cmake:194 (include)"
+      - "CMakeLists.txt:180 (include)"
+    directories:
+      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST"
+      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST
+        
+        Run Build Command(s):C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile && C:\\msys64\\mingw64\\bin\\cmake.exe -SC:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST -BC:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST --check-build-system CMakeFiles\\Makefile.cmake 0
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_progress_start C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\\\CMakeFiles\\progress.marks
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make[1]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\ltest.dir\\build.make CMakeFiles/ltest.dir/depend
+        mingw32-make[2]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles\\ltest.dir\\DependInfo.cmake
+        Dependee "C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles\\ltest.dir\\DependInfo.cmake" is newer than depender "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST/CMakeFiles/ltest.dir/depend.internal".
+        Dependee "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST/CMakeFiles/ltest.dir/depend.internal".
+        Scanning dependencies of target ltest
+        mingw32-make[2]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\ltest.dir\\build.make CMakeFiles/ltest.dir/build
+        mingw32-make[2]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        [ 50%] Building C object CMakeFiles/ltest.dir/ltest.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe   -g -std=gnu99 -o CMakeFiles\\ltest.dir\\ltest.c.obj -c C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\ltest.c
+        [100%] Linking C executable ltest.exe
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\ltest.dir\\link.txt --verbose=1
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\ltest.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\ltest.dir/objects.a @CMakeFiles\\ltest.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -g -Wl,--whole-archive CMakeFiles\\ltest.dir/objects.a -Wl,--no-whole-archive -o ltest.exe -Wl,--out-implib,libltest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\ltest.dir\\linkLibs.rsp
+        mingw32-make[2]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        [100%] Built target ltest
+        mingw32-make[1]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_progress_start C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles 0
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsSuperLUMT.cmake:94 (try_compile)"
+      - "cmake/SundialsSetupTPLs.cmake:185 (include)"
+      - "CMakeLists.txt:186 (include)"
+    directories:
+      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/SUPERLUMT_TEST"
+      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/SUPERLUMT_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/SUPERLUMT_TEST
+        
+        Run Build Command(s):C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile && C:\\msys64\\mingw64\\bin\\cmake.exe -SC:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\SUPERLUMT_TEST -BC:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\SUPERLUMT_TEST --check-build-system CMakeFiles\\Makefile.cmake 0
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_progress_start C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\SUPERLUMT_TEST\\CMakeFiles C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\SUPERLUMT_TEST\\\\CMakeFiles\\progress.marks
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make[1]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/SUPERLUMT_TEST'
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\ltest.dir\\build.make CMakeFiles/ltest.dir/depend
+        mingw32-make[2]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/SUPERLUMT_TEST'
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\SUPERLUMT_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\SUPERLUMT_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\SUPERLUMT_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\SUPERLUMT_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\SUPERLUMT_TEST\\CMakeFiles\\ltest.dir\\DependInfo.cmake
+        Dependee "C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\SUPERLUMT_TEST\\CMakeFiles\\ltest.dir\\DependInfo.cmake" is newer than depender "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/SUPERLUMT_TEST/CMakeFiles/ltest.dir/depend.internal".
+        Dependee "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/SUPERLUMT_TEST/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/SUPERLUMT_TEST/CMakeFiles/ltest.dir/depend.internal".
+        Scanning dependencies of target ltest
+        mingw32-make[2]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/SUPERLUMT_TEST'
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\ltest.dir\\build.make CMakeFiles/ltest.dir/build
+        mingw32-make[2]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/SUPERLUMT_TEST'
+        [ 50%] Building C object CMakeFiles/ltest.dir/ltest.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe  @CMakeFiles/ltest.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\ltest.dir\\ltest.c.obj -c C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\SUPERLUMT_TEST\\ltest.c
+        [100%] Linking C executable ltest.exe
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\ltest.dir\\link.txt --verbose=1
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\ltest.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\ltest.dir/objects.a @CMakeFiles\\ltest.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -g -Wl,--whole-archive CMakeFiles\\ltest.dir/objects.a -Wl,--no-whole-archive -o ltest.exe -Wl,--out-implib,libltest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\ltest.dir\\linkLibs.rsp
+        mingw32-make[2]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/SUPERLUMT_TEST'
+        [100%] Built target ltest
+        mingw32-make[1]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/SUPERLUMT_TEST'
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_progress_start C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\SUPERLUMT_TEST\\CMakeFiles 0
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:66 (try_compile)"
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:75 (posix_timers_test)"
+      - "cmake/SundialsSetupCompilers.cmake:194 (include)"
+      - "CMakeLists.txt:180 (include)"
+    directories:
+      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST"
+      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST
+        
+        Run Build Command(s):C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile && C:\\msys64\\mingw64\\bin\\cmake.exe -SC:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST -BC:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST --check-build-system CMakeFiles\\Makefile.cmake 0
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_progress_start C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\\\CMakeFiles\\progress.marks
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make[1]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\ltest.dir\\build.make CMakeFiles/ltest.dir/depend
+        mingw32-make[2]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles\\ltest.dir\\DependInfo.cmake
+        Dependee "C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles\\ltest.dir\\DependInfo.cmake" is newer than depender "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST/CMakeFiles/ltest.dir/depend.internal".
+        Dependee "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST/CMakeFiles/ltest.dir/depend.internal".
+        Scanning dependencies of target ltest
+        mingw32-make[2]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\ltest.dir\\build.make CMakeFiles/ltest.dir/build
+        mingw32-make[2]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        [ 50%] Building C object CMakeFiles/ltest.dir/ltest.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe   -g -std=gnu99 -o CMakeFiles\\ltest.dir\\ltest.c.obj -c C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\ltest.c
+        [100%] Linking C executable ltest.exe
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\ltest.dir\\link.txt --verbose=1
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\ltest.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\ltest.dir/objects.a @CMakeFiles\\ltest.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -g -Wl,--whole-archive CMakeFiles\\ltest.dir/objects.a -Wl,--no-whole-archive -o ltest.exe -Wl,--out-implib,libltest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\ltest.dir\\linkLibs.rsp
+        mingw32-make[2]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        [100%] Built target ltest
+        mingw32-make[1]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_progress_start C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles 0
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:66 (try_compile)"
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:75 (posix_timers_test)"
+      - "cmake/SundialsSetupCompilers.cmake:194 (include)"
+      - "CMakeLists.txt:180 (include)"
+    directories:
+      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST"
+      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST
+        
+        Run Build Command(s):C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile && C:\\msys64\\mingw64\\bin\\cmake.exe -SC:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST -BC:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST --check-build-system CMakeFiles\\Makefile.cmake 0
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_progress_start C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\\\CMakeFiles\\progress.marks
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make[1]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\ltest.dir\\build.make CMakeFiles/ltest.dir/depend
+        mingw32-make[2]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles\\ltest.dir\\DependInfo.cmake
+        Dependee "C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles\\ltest.dir\\DependInfo.cmake" is newer than depender "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST/CMakeFiles/ltest.dir/depend.internal".
+        Dependee "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST/CMakeFiles/ltest.dir/depend.internal".
+        Scanning dependencies of target ltest
+        mingw32-make[2]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\ltest.dir\\build.make CMakeFiles/ltest.dir/build
+        mingw32-make[2]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        [ 50%] Building C object CMakeFiles/ltest.dir/ltest.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe   -g -std=gnu99 -o CMakeFiles\\ltest.dir\\ltest.c.obj -c C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\ltest.c
+        [100%] Linking C executable ltest.exe
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\ltest.dir\\link.txt --verbose=1
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\ltest.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\ltest.dir/objects.a @CMakeFiles\\ltest.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -g -Wl,--whole-archive CMakeFiles\\ltest.dir/objects.a -Wl,--no-whole-archive -o ltest.exe -Wl,--out-implib,libltest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\ltest.dir\\linkLibs.rsp
+        mingw32-make[2]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        [100%] Built target ltest
+        mingw32-make[1]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_progress_start C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles 0
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:66 (try_compile)"
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:75 (posix_timers_test)"
+      - "cmake/SundialsSetupCompilers.cmake:194 (include)"
+      - "CMakeLists.txt:180 (include)"
+    directories:
+      source: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST"
+      binary: "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST
+        
+        Run Build Command(s):C:/msys64/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile && C:\\msys64\\mingw64\\bin\\cmake.exe -SC:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST -BC:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST --check-build-system CMakeFiles\\Makefile.cmake 0
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_progress_start C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\\\CMakeFiles\\progress.marks
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\Makefile2 all
+        mingw32-make[1]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\ltest.dir\\build.make CMakeFiles/ltest.dir/depend
+        mingw32-make[2]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_depends "MinGW Makefiles" C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles\\ltest.dir\\DependInfo.cmake
+        Dependee "C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles\\ltest.dir\\DependInfo.cmake" is newer than depender "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST/CMakeFiles/ltest.dir/depend.internal".
+        Dependee "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST/CMakeFiles/ltest.dir/depend.internal".
+        Scanning dependencies of target ltest
+        mingw32-make[2]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\ltest.dir\\build.make CMakeFiles/ltest.dir/build
+        mingw32-make[2]: Entering directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        [ 50%] Building C object CMakeFiles/ltest.dir/ltest.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe   -g -std=gnu99 -o CMakeFiles\\ltest.dir\\ltest.c.obj -c C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\ltest.c
+        [100%] Linking C executable ltest.exe
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\ltest.dir\\link.txt --verbose=1
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\ltest.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\ltest.dir/objects.a @CMakeFiles\\ltest.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -g -Wl,--whole-archive CMakeFiles\\ltest.dir/objects.a -Wl,--no-whole-archive -o ltest.exe -Wl,--out-implib,libltest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\ltest.dir\\linkLibs.rsp
+        mingw32-make[2]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        [100%] Built target ltest
+        mingw32-make[1]: Leaving directory 'C:/Dev/Coding/IDA-FullScale/ida-7.0.0/build3/POSIX_TIMER_TEST'
+        C:\\msys64\\mingw64\\bin\\cmake.exe -E cmake_progress_start C:\\Dev\\Coding\\IDA-FullScale\\ida-7.0.0\\build3\\POSIX_TIMER_TEST\\CMakeFiles 0
         
       exitCode: 0
 ...

@@ -2,3 +2,4 @@
 *.exe
 *.m
 .vscode
+ida-7.0.0/build/

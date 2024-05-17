@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc ..\..\..\bin\libsundials_sunlinsolsuperlumt.a CMakeFiles/sundials_sunlinsolsuperlumt_obj_static.dir/sunlinsol_superlumt.c.obj
+C:\msys64\mingw64\bin\ranlib.exe ..\..\..\bin\libsundials_sunlinsolsuperlumt.a

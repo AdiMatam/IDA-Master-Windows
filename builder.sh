@@ -19,9 +19,11 @@ cmake -S ida-7.0.0/ -B ida-7.0.0/build2/ -G"MinGW Makefiles" \
 	-DEXAMPLES_INSTALL=OFF \
 	-DKLU_INCLUDE_DIR=$CURDIR/suitesparse/include/suitesparse \
 	-DKLU_LIBRARY_DIR=$CURDIR/suitesparse/lib/ \
+	-DSUPERLUMT_THREAD_TYPE=PTHREAD \
 	-DSUPERLUMT_INCLUDE_DIR=$CURDIR/superlu/SRC \
 	-DSUPERLUMT_LIBRARY_DIR=$CURDIR/superlu/lib \
 	-DSUPERLUMT_LIBRARIES=$CURDIR/superlu/lib/libsuperlu_mt_PTHREAD.a;$CURDIR/superlu/lib/libopenblas.a;
+
 
 
 ## for superlumt_libraries= 'full path to pthread; full path to openblas'

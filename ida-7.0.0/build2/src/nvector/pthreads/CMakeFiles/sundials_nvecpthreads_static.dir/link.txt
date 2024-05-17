@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc ..\..\..\bin\libsundials_nvecpthreads.a CMakeFiles/sundials_nvecpthreads_obj_static.dir/nvector_pthreads.c.obj
+C:\msys64\mingw64\bin\ranlib.exe ..\..\..\bin\libsundials_nvecpthreads.a

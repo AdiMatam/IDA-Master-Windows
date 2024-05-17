@@ -38,7 +38,7 @@ linkmap.update({
         Spec(
             compiledirs = ["./superlu/SRC"],
             linkdirs = ["./superlu/lib"],
-            links = ["sundials_sunlinsolsuperlumt", "superlu_mt_PTHREAD", "openblas"],
+            links = ["sundials_sunlinsolsuperlumt", "superlu_mt_PTHREAD", "openblas", "gomp"],
     ),
 
     # usr/lib/x86_64-linux-gnu/libblas.so

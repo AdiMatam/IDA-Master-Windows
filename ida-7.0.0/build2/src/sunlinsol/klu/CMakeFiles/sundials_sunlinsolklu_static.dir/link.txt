@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc ..\..\..\bin\libsundials_sunlinsolklu.a CMakeFiles/sundials_sunlinsolklu_obj_static.dir/sunlinsol_klu.c.obj
+C:\msys64\mingw64\bin\ranlib.exe ..\..\..\bin\libsundials_sunlinsolklu.a

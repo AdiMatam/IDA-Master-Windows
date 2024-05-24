@@ -29,7 +29,13 @@ linkmap = {
     "standard": Spec(
         compiledirs = ["./sundials/include"],
         linkdirs = ["./sundials/lib"],
-        links = ["sundials_ida", "sundials_nvecserial", "sundials_nvecmanyvector", "sundials_core", "m", "msmpi"],
+        links = ["sundials_ida", "sundials_nvecserial", "sundials_core", "m", "msmpi"],
+    ),
+
+    "pthread": Spec(
+        compiledirs = ["./sundials/include"],
+        linkdirs = ["./sundials/lib"],
+        links = ["sundials_ida", "sundials_nvecpthreads", "sundials_core", "m", "msmpi"],
     ),
 }
 

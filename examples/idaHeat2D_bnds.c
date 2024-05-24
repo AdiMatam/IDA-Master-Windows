@@ -109,8 +109,8 @@ int main(void)
   if (check_retval(&retval, "SUNContext_Create", 1)) { return 1; }
 
   /* Create vectors uu, up, res, constraints, id. */
-  //uu = N_VNew_Serial(NEQ, ctx);
-  uu = N_VNew_Pthreads(NEQ, 4, ctx);
+  uu = N_VNew_Serial(NEQ, ctx);
+  //uu = N_VNew_Pthreads(NEQ, 4, ctx);
   if (check_retval((void*)uu, "N_VNew_Serial", 0)) { return (1); }
   up = N_VClone(uu);
   if (check_retval((void*)up, "N_VNew_Serial", 0)) { return (1); }
@@ -237,9 +237,9 @@ int heatres(sunrealtype tres, N_Vector uu, N_Vector up, N_Vector resval,
   sunrealtype *uv, *upv, *resv, coeff;
   UserData data;
 
-  uv   = N_VGetArrayPointer_Pthreads(uu);
-  upv  = N_VGetArrayPointer_Pthreads(up);
-  resv = N_VGetArrayPointer_Pthreads(resval);
+  uv   = N_VGetArrayPointer(uu);
+  upv  = N_VGetArrayPointer(up);
+  resv = N_VGetArrayPointer(resval);
 
   data  = (UserData)user_data;
   mm    = data->mm;
@@ -282,9 +282,9 @@ static int SetInitialProfile(UserData data, N_Vector uu, N_Vector up,
   mm  = data->mm;
   mm1 = mm - 1;
 
-  udata  = N_VGetArrayPointer_Pthreads(uu);
-  updata = N_VGetArrayPointer_Pthreads(up);
-  iddata = N_VGetArrayPointer_Pthreads(id);
+  udata  = N_VGetArrayPointer(uu);
+  updata = N_VGetArrayPointer(up);
+  iddata = N_VGetArrayPointer(id);
 
   /* Initialize id to 1's. */
   N_VConst(ONE, id);
